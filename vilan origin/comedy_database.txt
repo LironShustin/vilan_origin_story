@@ -1,0 +1,17 @@
+Type: Realistic  
+Duration: Just met  
+Place: At work  
+Antagonist: A clueless but well-meaning boss who causes constant chaos  
+Plot: The hero's daily life is turned upside down by their boss's hilariously poor decision-making.  
+
+Type: Realistic  
+Duration: Less than a year  
+Place: At university  
+Antagonist: An overly competitive but harmless roommate  
+Plot: The hero finds themselves in a ridiculous, escalating prank war with their roommate.  
+
+Type: Realistic  
+Duration: More than a year  
+Place: You are family members  
+Antagonist: A nosy relative with an unending supply of bad advice  
+Plot: The hero navigates the chaotic family gatherings where their relative always stirs up trouble.

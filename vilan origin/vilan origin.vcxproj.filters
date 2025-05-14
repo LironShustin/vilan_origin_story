@@ -18,5 +18,17 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="liron.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="darma_database.txt" />
+    <Text Include="comedy_database.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="liron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

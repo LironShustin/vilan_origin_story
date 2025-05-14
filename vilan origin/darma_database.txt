@@ -1,0 +1,17 @@
+Type: Realistic  
+Duration: Just met  
+Place: At work  
+Antagonist: A demanding boss who hides a secret agenda  
+Plot: The hero, a new employee, uncovers a workplace conspiracy, leading to a tense struggle for power.  
+
+Type: Realistic  
+Duration: Less than a year  
+Place: At university  
+Antagonist: A manipulative classmate who envies the hero's success  
+Plot: The hero faces a series of mind games and sabotage from a bitter rival on campus.  
+
+Type: Realistic  
+Duration: More than a year  
+Place: In childhood  
+Antagonist: A former childhood friend turned powerful competitor  
+Plot: The hero is forced to confront a past friend who has become a dangerous adversary in their adult life.
