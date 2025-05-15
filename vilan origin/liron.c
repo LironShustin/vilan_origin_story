@@ -8,7 +8,7 @@ void questions(int* genre_choice, char* file_name[260]) {
     char storyName[256];
     FILE* file;
     bool isRealistic;
-    int genreChoice;
+    int genreChoice = *genre_choice;
     
     while (1) {
         printf("What's your story's name? ");
