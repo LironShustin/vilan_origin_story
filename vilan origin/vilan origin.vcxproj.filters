@@ -18,7 +18,13 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="liron.c">
+    <ClCompile Include="fileSaving.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="editingFiles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="questions.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -27,7 +33,13 @@
     <Text Include="comedy_database.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="liron.h">
+    <ClInclude Include="fileSaving.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="editingFiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="questions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
