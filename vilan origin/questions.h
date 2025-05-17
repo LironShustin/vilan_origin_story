@@ -6,6 +6,7 @@
 #include <stdbool.h>
 
 void genre(bool realistic, char story_file_name[260]);
+void how_long_you_met(char story_file_name[260]);
 
 #endif
 #pragma once
