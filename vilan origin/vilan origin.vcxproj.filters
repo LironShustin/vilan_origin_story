@@ -48,5 +48,8 @@
     <ClInclude Include="design.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Structs&amp;Enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

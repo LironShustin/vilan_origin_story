@@ -142,6 +142,7 @@
     <ClInclude Include="editingFiles.h" />
     <ClInclude Include="fileSaving.h" />
     <ClInclude Include="questions.h" />
+    <ClInclude Include="Structs&amp;Enums.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
