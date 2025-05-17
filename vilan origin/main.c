@@ -9,6 +9,12 @@
 int main() {
 	char answers_file[260];
 	bool realistic = true;
+<<<<<<< HEAD
 	create_answers_file(&answers_file);
 	genre(realistic, &answers_file);
+=======
+	create_answers_file(answers_file);
+	how_long_you_met(answers_file);
+	return 0;
+>>>>>>> QhowLongYouMet
 }
