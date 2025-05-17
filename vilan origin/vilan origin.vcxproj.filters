@@ -27,6 +27,9 @@
     <ClCompile Include="questions.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="design.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="drama_database.txt" />
@@ -40,6 +43,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="questions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="design.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,5 +1,7 @@
 #include "questions.h"
 #include "editingFiles.h"
+#include "design.h"
+
 
 void genre(bool realistic, char story_file_name[260]) {
 	int choice = 0;
@@ -7,36 +9,41 @@ void genre(bool realistic, char story_file_name[260]) {
 
 	if (realistic) {
 		while (choice == 0) {
-			printf("What genre is your story?\n");
-			printf("1) Drama \n2) Comedy\n\n");
+			print_colored("What genre is your story?\n", YELLOW);
+			print_colored("1) Drama \n2) Comedy\n\n", CYAN);
 			scanf_s(" %d", &choice);
 			if (choice == 1) {
-				strcpy(genre, "Drama");
+				strcpy_s(genre, sizeof(genre), "Drama");
+
 			}
 			else if (choice == 2) {
-				strcpy(genre, "Comedy");
+				strcpy_s(genre, sizeof(genre), "Comedy");
+
 			}
 			else {
-				printf("invalid input try again...");
+				print_colored("invalid input try again...", RED);
 			}
 		}
 	}
 	else {
 		while (choice == 0) {
-			printf("What genre is your story?\n");
-			printf("1) Thriller \n2) Fantasy \n3) Science fiction \n");
+			print_colored("What genre is your story?\n", YELLOW);
+			print_colored("1) Thriller \n2) Fantasy \n3) Science fiction \n", CYAN);
 			scanf_s(" %d", &choice);
 			if (choice == 1) {
-				strcpy(genre, "Thriller");
+				strcpy_s(genre, sizeof(genre), "Thriller");
+
 			}
 			else if (choice == 2) {
-				strcpy(genre, "Fantasy");
+				strcpy_s(genre, sizeof(genre), "Fantasy");
+
 			}
 			else if (choice == 3) {
-				strcpy(genre, "Science fiction");
+				strcpy_s(genre, sizeof(genre), "Science fiction");
+
 			}
 			else {
-				printf("invalid input try again...");
+				print_colored("invalid input try again...", RED);
 			}
 		}
 	}

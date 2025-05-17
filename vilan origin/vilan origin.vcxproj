@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="design.c" />
     <ClCompile Include="editingFiles.c" />
     <ClCompile Include="fileSaving.c" />
     <ClCompile Include="main.c" />
@@ -137,6 +138,7 @@
     <Text Include="drama_database.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="design.h" />
     <ClInclude Include="editingFiles.h" />
     <ClInclude Include="fileSaving.h" />
     <ClInclude Include="questions.h" />
