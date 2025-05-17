@@ -5,7 +5,7 @@
 #include <string.h>
 #include <stdbool.h>
 
-void append_to_next_empty_line(const char* filename, const char* text);
+void append_to_next_empty_line(char* filename, char text);
 
 
 #endif

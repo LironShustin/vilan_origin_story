@@ -9,6 +9,6 @@
 int main() {
 	char answers_file[260];
 	bool realistic = true;
-	create_answers_file(answers_file);
-	genre(realistic, answers_file);
+	create_answers_file(&answers_file);
+	genre(realistic, &answers_file);
 }

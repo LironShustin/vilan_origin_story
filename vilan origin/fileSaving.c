@@ -47,5 +47,6 @@ void create_answers_file(char* file_name) {
     }
     print_colored("Successfully created the answers file:", GREEN);
     printf(" %s\n", fileName);
+    printf(" %s\n", file_name);
     fclose(file);
 }

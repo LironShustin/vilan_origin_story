@@ -1,7 +1,7 @@
 #include "editingFiles.h"
 
-void append_to_next_empty_line(const char* filename, const char* text) {
-    strcat_s(filename, sizeof(filename) + 10, ".txt");
+void append_to_next_empty_line(const char* filename, char text) {
+    //strcat_s(filename, sizeof(filename) + 10, ".txt");
     FILE* file = fopen(filename, "a+");
     if (!file) {
         perror("Error opening file");
@@ -27,7 +27,7 @@ void append_to_next_empty_line(const char* filename, const char* text) {
         fprintf(file, "\n");
     }
     // Write the new text
-    fprintf(file, "%s\n", text);
+    fprintf(file, "%c\n", text);
     fclose(file);
     //printf("Text appended successfully.\n");
 }

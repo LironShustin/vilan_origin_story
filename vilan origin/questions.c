@@ -3,7 +3,7 @@
 #include "design.h"
 
 
-void genre(bool realistic, char story_file_name[260]) {
+void genre(bool realistic, char* story_file_name[260]) {
 	int choice = 0;
 	char genre[30];
 
@@ -47,5 +47,5 @@ void genre(bool realistic, char story_file_name[260]) {
 			}
 		}
 	}
-	append_to_next_empty_line(&story_file_name, genre);
+	append_to_next_empty_line(story_file_name, genre);
 }
