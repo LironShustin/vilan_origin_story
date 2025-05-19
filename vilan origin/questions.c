@@ -1,8 +1,9 @@
 #include "questions.h"
 #include "editingFiles.h"
 #include "design.h"
+#include "Structs&Enums.h"
 
-void is_realistic(bool* realistic, char* story_file_name) {
+void is_realistic(BOOL* realistic, char* story_file_name) {
     char answer[10]; // buffer for input
     answer[0] = '0';
     while (answer[0] == '0') {
@@ -13,11 +14,11 @@ void is_realistic(bool* realistic, char* story_file_name) {
 
         // Check for single character input
         if ((answer[0] == 'y' || answer[0] == 'Y') && answer[1] == '\0') {
-            *realistic = true;
+            *realistic = True;
             append_to_next_empty_line(story_file_name, "Realistic");
         }
         else if ((answer[0] == 'n' || answer[0] == 'N') && answer[1] == '\0') {
-            *realistic = false;
+            *realistic = False;
             append_to_next_empty_line(story_file_name, "Fictional");
         }
         else {
@@ -28,7 +29,7 @@ void is_realistic(bool* realistic, char* story_file_name) {
 }
 
 
-void genre(bool realistic, char* story_file_name) {
+void genre(BOOL realistic, char* story_file_name) {
 	int choice = 0;
 	char genre[30];
 	if (realistic) {

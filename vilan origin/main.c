@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <stdbool.h>
 #include "fileSaving.h"
 #include "questions.h"
 #include "editingFiles.h"
+#include "Structs&Enums.h"
 
 int main() { 
 	char answers_file[260];
-	bool realistic = true;
+	BOOL realistic = True;
 	create_answers_file(&answers_file);
 	is_realistic(&realistic, &answers_file);
 	genre(realistic, &answers_file);
