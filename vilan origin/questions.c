@@ -33,8 +33,8 @@ void genre(bool realistic, char* story_file_name) {
 	char genre[30];
 	if (realistic) {
 		while (choice == 0) {
-			print_colored("What genre is your story?\n", YELLOW);
-			print_colored("1) Drama \n2) Comedy\n\n", CYAN);
+			print_colored("\nWhat genre is your story?\n", YELLOW);
+			print_colored("1) Drama \n2) Comedy\n", CYAN);
 			scanf_s(" %d", &choice);
 			if (choice == 1) {
 				strcpy_s(genre, sizeof(genre), "Drama");
@@ -46,12 +46,13 @@ void genre(bool realistic, char* story_file_name) {
 			}
 			else {
 				print_colored("invalid input try again...", RED);
+				choice = 0; // Reset choice to allow for re-entry
 			}
 		}
 	}
 	else {
 		while (choice == 0) {
-			print_colored("What genre is your story?\n", YELLOW);
+			print_colored("\nWhat genre is your story?\n", YELLOW);
 			print_colored("1) Thriller \n2) Fantasy \n3) Science fiction \n", CYAN);
 			scanf_s(" %d", &choice);
 			if (choice == 1) {
@@ -79,7 +80,7 @@ void how_long_you_met(char* story_file_name) {
     char genre[30] = { 0 };
     int choice = 0;
     while (choice < 1 || choice > 3) {
-        print_colored("When the story starts how long have your hero and vilain known each other?\n", YELLOW);
+        print_colored("\nWhen the story starts how long have your hero and vilain known each other?\n", YELLOW);
         print_colored("1) Just met\n2) Less than a year\n3) More than a year\n", CYAN);
         scanf_s("%d", &choice);
         if (choice < 1 || choice > 3) {
@@ -99,4 +100,32 @@ void how_long_you_met(char* story_file_name) {
     }
         append_to_next_empty_line(story_file_name, when_met);
 }
+void first_meeting_place(char* story_file_name) {
+    char meeting_place[100] = { 0 };
+    char genre[30] = { 0 };
+    int choice = 0;
+    while (choice < 1 || choice > 3) {
+        print_colored("\nWhere did the hero and villain first meet?\n", YELLOW);
+        print_colored("1) They are family related\n2) They studied together\n3) They worked together\n", CYAN);
+        scanf_s("%d", &choice);
+        if (choice < 1 || choice > 3) {
+            print_colored("Invalid input, try again...\n", RED);
+        }
+    }
+    switch (choice) {
+    case 1:
+        strcpy_s(meeting_place, sizeof(meeting_place), "They are family related");
+        break;
+    case 2:
+        strcpy_s(meeting_place, sizeof(meeting_place), "They studied together");
+        break;
+    case 3:
+        strcpy_s(meeting_place, sizeof(meeting_place), "They worked together");
+        break;
+    }
+    append_to_next_empty_line(story_file_name, meeting_place);
+}
+
+
+
 

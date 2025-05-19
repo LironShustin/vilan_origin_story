@@ -13,4 +13,5 @@ int main() {
 	is_realistic(&realistic, &answers_file);
 	genre(realistic, &answers_file);
 	how_long_you_met(&answers_file);
+	first_meeting_place(&answers_file);
 }
