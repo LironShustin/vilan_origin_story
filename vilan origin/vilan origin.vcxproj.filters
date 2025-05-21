@@ -30,6 +30,9 @@
     <ClCompile Include="design.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fileComparison.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="drama_database.txt" />
@@ -49,6 +52,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Structs&amp;Enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fileComparison.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
