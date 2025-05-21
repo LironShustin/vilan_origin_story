@@ -1,45 +1,17 @@
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include <string.h>
-//#include <stdbool.h>
-//#include "fileSaving.h"
-//#include "questions.h"
-//#include "editingFiles.h"
-//
-//int main() { 
-//	char answers_file[260];
-//	bool realistic = true;
-//	create_answers_file(&answers_file);
-//	is_realistic(&realistic, &answers_file);
-//	genre(realistic, &answers_file);
-//	how_long_you_met(&answers_file);
-//	first_meeting_place(&answers_file);
-//}
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "fileSaving.h"
 #include "questions.h"
 #include "editingFiles.h"
-<<<<<<< HEAD
 #include "Structs&Enums.h"
-
-int main() { 
-	char answers_file[260];
-	BOOL realistic = True;
-	create_answers_file(&answers_file);
-	is_realistic(&realistic, &answers_file);
-	genre(realistic, &answers_file);
-	how_long_you_met(&answers_file);
-}
-=======
 #include "fileReading.h"
 
 int main() {
     char answers_file[260];
-    bool realistic = true;
-
-
+    BOOL realistic = True;
     create_answers_file(answers_file);
     is_realistic(&realistic, answers_file);
     genre(realistic, answers_file);
@@ -62,6 +34,3 @@ int main() {
     }
     return 0;
 }
-
-
->>>>>>> first-meeting-place
