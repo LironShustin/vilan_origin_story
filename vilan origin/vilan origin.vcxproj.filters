@@ -30,7 +30,11 @@
     <ClCompile Include="design.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="fileComparison.c">
+=======
+    <ClCompile Include="fileReading.c">
+>>>>>>> first-meeting-place
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -54,7 +58,11 @@
     <ClInclude Include="Structs&amp;Enums.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="fileComparison.h">
+=======
+    <ClInclude Include="fileReading.h">
+>>>>>>> first-meeting-place
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

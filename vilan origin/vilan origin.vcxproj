@@ -129,7 +129,11 @@
   <ItemGroup>
     <ClCompile Include="design.c" />
     <ClCompile Include="editingFiles.c" />
+<<<<<<< HEAD
     <ClCompile Include="fileComparison.c" />
+=======
+    <ClCompile Include="fileReading.c" />
+>>>>>>> first-meeting-place
     <ClCompile Include="fileSaving.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="questions.c" />
@@ -141,7 +145,11 @@
   <ItemGroup>
     <ClInclude Include="design.h" />
     <ClInclude Include="editingFiles.h" />
+<<<<<<< HEAD
     <ClInclude Include="fileComparison.h" />
+=======
+    <ClInclude Include="fileReading.h" />
+>>>>>>> first-meeting-place
     <ClInclude Include="fileSaving.h" />
     <ClInclude Include="questions.h" />
     <ClInclude Include="Structs&amp;Enums.h" />
