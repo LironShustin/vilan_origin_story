@@ -9,6 +9,7 @@
     <ClCompile Include="main.c" />
     <ClCompile Include="questions.c" />
     <ClCompile Include="encoders.c" />
+    <ClCompile Include="dynamicMemoryAllocation.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="design.h" />
@@ -19,6 +20,7 @@
     <ClInclude Include="questions.h" />
     <ClInclude Include="Structs&amp;Enums.h" />
     <ClInclude Include="encoders.h" />
+    <ClInclude Include="dynamicMemoryAllocation.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="comedy_database.txt" />

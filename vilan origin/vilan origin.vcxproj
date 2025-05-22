@@ -126,6 +126,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="design.c" />
+    <ClCompile Include="dynamicMemoryAllocation.c" />
     <ClCompile Include="editingFiles.c" />
     <ClCompile Include="encoders.c" />
     <ClCompile Include="fileComparison.c" />
@@ -140,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="design.h" />
+    <ClInclude Include="dynamicMemoryAllocation.h" />
     <ClInclude Include="editingFiles.h" />
     <ClInclude Include="encoders.h" />
     <ClInclude Include="fileComparison.h" />
