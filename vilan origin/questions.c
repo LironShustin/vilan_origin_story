@@ -26,7 +26,7 @@ void is_realistic(BOOL* realistic, char* story_file_name) {
         }
     }
 }
-void genre(bool realistic, char* story_file_name) {
+void genre(BOOL realistic, char* story_file_name) {
     int choice = 0;
     char genre[30];
     if (realistic) {
@@ -82,13 +82,13 @@ void how_long_you_met(char* story_file_name) {
     }
     switch (choice) {
     case 1:
-        strcpy_s(when_met, sizeof(when_met), "Just met");
+        strcpy_s(when_met, sizeof(when_met), "just met");
         break;
     case 2:
-        strcpy_s(when_met, sizeof(when_met), "Less than a year");
+        strcpy_s(when_met, sizeof(when_met), "less than a year");
         break;
     case 3:
-        strcpy_s(when_met, sizeof(when_met), "More than a year");
+        strcpy_s(when_met, sizeof(when_met), "more than a year");
         break;
     }
     append_to_next_empty_line(story_file_name, when_met);
@@ -107,13 +107,13 @@ void first_meeting_place(char* story_file_name) {
     }
     switch (choice) {
     case 1:
-        strcpy_s(meeting_place, sizeof(meeting_place), "They are family related");
+        strcpy_s(meeting_place, sizeof(meeting_place), "family");
         break;
     case 2:
-        strcpy_s(meeting_place, sizeof(meeting_place), "They studied together");
+        strcpy_s(meeting_place, sizeof(meeting_place), "school");
         break;
     case 3:
-        strcpy_s(meeting_place, sizeof(meeting_place), "They worked together");
+        strcpy_s(meeting_place, sizeof(meeting_place), "work place");
         break;
     }
     append_to_next_empty_line(story_file_name, meeting_place);

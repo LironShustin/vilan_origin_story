@@ -9,5 +9,5 @@ void create_answers_file(char* file_name);
 
 
 
-#endif // !file_saving
+#endif 
 #pragma once

@@ -1,17 +1,200 @@
-Type: Realistic  
-Duration: Just met  
-Place: At work  
-Antagonist: A demanding boss who hides a secret agenda  
-Plot: The hero, a new employee, uncovers a workplace conspiracy, leading to a tense struggle for power.  
-
-Type: Realistic  
-Duration: Less than a year  
-Place: At university  
-Antagonist: A manipulative classmate who envies the hero's success  
-Plot: The hero faces a series of mind games and sabotage from a bitter rival on campus.  
-
-Type: Realistic  
-Duration: More than a year  
-Place: In childhood  
-Antagonist: A former childhood friend turned powerful competitor  
-Plot: The hero is forced to confront a past friend who has become a dangerous adversary in their adult life.
+just met
+family
+A mysterious relative emerging from the shadows with a cryptic past.
+The hero must untangle the secrets of a newly discovered cousin whose hidden agenda could unravel the family's legacy.
+just met
+family
+An unexpected heir who suddenly lays claim to the family's fortune.
+The hero finds themselves challenged by a stranger bound by blood, whose presence threatens their place in the family.
+just met
+family
+A charming distant uncle with unsettling interest in family affairs.
+The hero grows suspicious of a newly introduced relative whose motives seem far more calculating than kind.
+just met
+family
+A grieving widow who appears suddenly with shocking claims.
+The hero must decide whether to believe a stranger’s heartfelt story—or expose the lies that could destroy the family’s honor.
+just met
+family
+A child claiming to be a secret heir.
+The hero's stable world is rocked when a young stranger arrives, possibly carrying the truth—and a dangerous inheritance.
+just met
+school
+A brilliant transfer student whose charm hides a destructive ambition.
+The hero quickly learns that the captivating new student is orchestrating events to ruin their reputation and claim their future.
+just met
+school
+A cold, calculating genius who thrives on mind games.
+The hero is drawn into an academic rivalry with a new classmate who seems to know their every weakness.
+just met
+school
+An alluring loner who disrupts the fragile balance of social power.
+The hero must navigate emotional chaos as this new student's presence brings out the worst in their closest friends.
+just met
+school
+A popular student who quickly turns everyone against the hero.
+The hero must outwit a cunning new arrival who’s weaving lies into friendships and alliances.
+just met
+work place
+A charismatic colleague whose ambition masks a sinister plan.
+The hero finds themselves entangled in a corporate web of sabotage, led by a new hire bent on taking their position and power.
+just met
+work place
+A newcomer who mirrors the hero’s every strength—with darker intentions.
+The hero must fight to protect their legacy as this perfect-seeming colleague begins to quietly dismantle their achievements.
+just met
+work place
+A seductive opportunist playing all sides.
+The hero is caught off-guard by a newly hired manipulator whose flattery and loyalty hide a knife behind the back.
+just met
+work place
+A consultant brought in to fix everything—and take credit.
+The hero faces a corporate outsider whose ambition could destroy years of hard-earned respect.
+less than a year
+family
+An estranged sibling returned with warmth—and a hidden grudge.
+The hero welcomes a long-lost brother back into their life, only to uncover a plot that threatens to tear the family apart.
+less than a year
+family
+A charming aunt who’s taken a strange interest in family politics.
+The hero must decode the true intentions of a relative who returned suddenly, and now holds suspicious influence over everyone.
+less than a year
+family
+A step-sibling eager to rewrite the family order.
+The hero discovers that behind their sibling’s friendly smile lies a plan to claim control of the family's future.
+less than a year
+family
+A charming step-parent hiding malicious intentions.
+The hero must protect their remaining family when the new addition begins to isolate and control those around them.
+less than a year
+family
+A distant cousin who suddenly becomes a confidant.
+The hero struggles to distinguish true kinship from manipulation when a newly-reconnected relative grows too close, too fast.
+less than a year
+school
+An intense rival who rose quickly in the academic ranks.
+The hero faces mounting pressure from a brilliant student who aims to outshine and discredit them at every turn.
+less than a year
+school
+A student activist whose ideals spiral into obsession.
+The hero becomes the unwilling symbol of everything their rival wants to destroy, sparking a tense psychological conflict.
+less than a year
+school
+A teacher’s favorite with a sharp tongue and sharper agenda.
+The hero is drawn into a bitter contest with a peer who uses charm and lies to poison their reputation.
+less than a year
+school
+A scholarship student who resents the privileged.
+The hero becomes a target of a peer whose righteous anger threatens to ignite campus-wide unrest.
+less than a year
+school
+An exchange student with a hidden past.
+The hero grows uneasy when a new classmate's charm unravels, revealing a mind that thrives on chaos and secrets.
+less than a year
+work place
+A cunning assistant whose loyalty masks deep resentment.
+The hero must navigate a dangerous workplace dynamic when their most trusted new hire begins manipulating alliances from within.
+less than a year
+work place
+A recently promoted peer who hides cruelty behind kindness.
+The hero uncovers a plan of betrayal led by someone who’s worked closely by their side for months.
+less than a year
+work place
+An eager recruit who copies every move—but for sabotage.
+The hero realizes their new coworker isn’t emulating out of admiration, but to replace and ruin them.
+less than a year
+work place
+A charming intern with sinister connections.
+The hero must uncover the truth behind a rising star who’s secretly gathering information for a hostile takeover.
+less than a year
+work place
+A junior analyst playing both sides of a corporate war.
+The hero discovers too late that their ambitious protégé is feeding intel to the competition.
+more than a year
+family
+A beloved cousin whose affection has twisted into manipulation.
+The hero must confront the painful reality that the cousin they once trusted has been pulling strings behind their downfall for years.
+more than a year
+family
+A protective sibling whose love became control.
+The hero must break free from a sibling’s stifling grip, where care has curdled into toxic dominance.
+more than a year
+family
+A parent figure harboring decades of bitterness.
+The hero is forced to reconcile with an older relative whose quiet resentment now threatens open conflict.
+more than a year
+family
+A matriarch whose affection masks a desperate need for control.
+The hero is caught between loyalty and freedom as the family elder begins dismantling their independence under the guise of protection.
+more than a year
+family
+A twin separated at birth, now returned with resentment.
+The hero’s life spirals when a long-lost twin reappears with a thirst for what they never had.
+more than a year
+family
+A godparent whose generosity has become a debt.
+The hero must pay the price for kindness that always came with strings, as family loyalty turns into quiet blackmail.
+more than a year
+family
+An aging patriarch hiding a dangerous secret.
+The hero must uncover the truth before their family’s legacy is rewritten by a father figure’s desperate final move.
+more than a year
+school
+A former best friend whose betrayal shattered everything.
+The hero is drawn back into a toxic cycle when their ex-best friend resurfaces, seeking revenge for a perceived betrayal in their youth.
+more than a year
+school
+An ex-lover turned relentless saboteur.
+The hero must protect themselves and their loved ones from someone who once knew their heart—and now aims to break it.
+more than a year
+school
+A once-loyal teammate now seeking to rewrite history.
+The hero faces an old classmate who blames them for past failures and is determined to prove their own greatness by destroying them.
+more than a year
+school
+A forgotten rival who never let go of second place.
+The hero’s old academic nemesis resurfaces, now with the power and influence to rewrite their shared history.
+more than a year
+school
+A class clown turned ruthless executive.
+The hero underestimates a former peer whose rise to power is fueled by the humiliation they never forgot.
+more than a year
+school
+A dropout blamed for a tragedy.
+The hero’s past is dragged into the present by a former friend seeking revenge for a mistake they never forgave.
+more than a year
+school
+A secret admirer turned stalker.
+The hero must confront a ghost from their school days whose love warped into obsession—and now threatens their life.
+more than a year
+school
+An old group project partner who took the fall.
+The hero is shocked when someone they barely remember reappears, blaming them for a life derailed and demanding justice.
+more than a year
+work place
+A mentor turned rival, hungry for control.
+The hero must challenge a former mentor whose guidance has given way to sabotage, threatening to destroy both their careers.
+more than a year
+work place
+A partner whose long friendship masks envy.
+The hero must reckon with a colleague they’ve trusted for years, now quietly dismantling their work and trust.
+more than a year
+work place
+An old friend climbing the ladder—with knives.
+The hero realizes too late that their closest confidant at work has been sabotaging them step by step, all for a shot at the top.
+more than a year
+work place
+A founder pushed aside who wants their company back.
+The hero must fend off a co-founder who once trusted them—and now believes betrayal was mutual.
+more than a year
+work place
+A team leader who turned manipulator behind closed doors.
+The hero must unravel years of subtle sabotage before everything they've built crumbles under betrayal from within.
+more than a year
+work place
+An old friend turned whistleblower with a grudge.
+The hero faces public ruin as a long-time ally exposes secrets—real and fabricated—to destroy their name.
+more than a year
+work place
+A trusted advisor who never wanted to be second best.
+The hero must outmaneuver their closest ally whose envy has now blossomed into a quiet, calculated campaign of destruction.
