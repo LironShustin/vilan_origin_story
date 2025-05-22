@@ -3,6 +3,8 @@
 #include "design.h"
 #include "Structs&Enums.h"
 
+void clear_console();
+
 void is_realistic(BOOL* realistic, char* story_file_name) {
     char answer[10]; // buffer for input
     answer[0] = '0';
@@ -126,6 +128,7 @@ void sci_fi_or_fantasy_meeting_place(char* story_file_name) {
         print_colored("\nWhere did the hero and villain meet first?\n", YELLOW);
         print_colored("1) Enemy captivity\n2) Battlefield\n3) Canteen\n", CYAN);
         scanf_s("%d", &choice);
+        clear_console();
         if (choice < 1 || choice > 3) {
             print_colored("Invalid input, try again...\n", RED);
         }
@@ -153,6 +156,7 @@ void hero_villain_same_side(char* story_file_name) {
         print_colored("\nWere the hero and the villain on the same side?\n", YELLOW);
         print_colored("1) Yes\n2) No\n", CYAN);
         scanf_s("%d", &choice);
+        clear_console();
         if (choice < 1 || choice > 2) {
             print_colored("Invalid input, try again...\n", RED);
         }
@@ -170,22 +174,26 @@ void hero_villain_same_side(char* story_file_name) {
 void how_long_since_meeting(char* story_file_name) {
     char answer[100] = { 0 };
     int choice = 0;
-    while (choice < 1 || choice > 3) {
+    while (choice < 1 || choice > 4) {
         print_colored("\nHow long has it been since then?\n", YELLOW);
-        print_colored("1) Less than a week\n2) More than a week\n3) More than a year\n", CYAN);
+        print_colored("1) Just met\n2) Less than a week\n3) More than a week\n4) More than a year\n", CYAN);
         scanf_s("%d", &choice);
-        if (choice < 1 || choice > 3) {
+        clear_console();
+        if (choice < 1 || choice > 4) {
             print_colored("Invalid input, try again...\n", RED);
         }
     }
     switch (choice) {
     case 1:
-        strcpy_s(answer, sizeof(answer), "Less than a week");
+        strcpy_s(answer, sizeof(answer), "Just met");
         break;
     case 2:
-        strcpy_s(answer, sizeof(answer), "More than a week");
+        strcpy_s(answer, sizeof(answer), "Less than a week");
         break;
     case 3:
+        strcpy_s(answer, sizeof(answer), "More than a week");
+        break;
+    case 4:
         strcpy_s(answer, sizeof(answer), "More than a year");
         break;
     }
@@ -200,6 +208,7 @@ void thriller_meeting_status(char* story_file_name) {
         print_colored("\nDid the hero and villain already meet each other?\n", YELLOW);
         print_colored("1) Yes\n2) No\n", CYAN);
         scanf_s("%d", &choice);
+        clear_console();
         if (choice < 1 || choice > 2) {
             print_colored("Invalid input, try again...\n", RED);
         }
@@ -221,6 +230,7 @@ void thriller_meeting_place(char* story_file_name) {
         print_colored("\nWhere?\n", YELLOW);
         print_colored("1) Canteen\n2) Investigation Office\n", CYAN);
         scanf_s("%d", &choice);
+        clear_console();
         if (choice < 1 || choice > 2) {
             print_colored("Invalid input, try again...\n", RED);
         }
@@ -231,6 +241,7 @@ void thriller_meeting_place(char* story_file_name) {
     }
     else {
         append_to_next_empty_line(story_file_name, "Investigation Office");
+        thriller_hero_duty(story_file_name);
     }
 }
 
@@ -240,6 +251,7 @@ void thriller_hero_duty(char* story_file_name) {
         print_colored("\nWhat is the duty of the hero\n", YELLOW);
         print_colored("1) Investigator\n2) Murderer\n3) Victim\n4) Uninvolved\n", CYAN);
         scanf_s("%d", &choice);
+        clear_console();
         if (choice < 1 || choice > 4) {
             print_colored("Invalid input, try again...\n", RED);
         }
@@ -270,7 +282,13 @@ void was_one_crew_member(char* story_file_name) {
     }
 }
 
-
+void clear_console() {
+#ifdef _WIN32
+    system("cls");
+#else
+    system("clear");
+#endif
+}
 
 
 
