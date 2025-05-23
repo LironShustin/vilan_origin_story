@@ -21,6 +21,7 @@ int main() {
     create_answers_file(answers_file);
     is_realistic(&realistic, answers_file);
     genre(realistic, answers_file);
+	clear_console();
 
     char genre[30] = { 0 };
     int pull_line = 3;
@@ -28,7 +29,9 @@ int main() {
     pull_line_from_file(answers_file, pull_line, genre, genre_size);
 	if (realistic) {// drama and comedy have the same questions
         how_long_you_met(answers_file);
+		clear_console();
         first_meeting_place(answers_file);
+<<<<<<< HEAD
         if (strcmp(genre, "Drama") == 0) {
             n = 2; //in drama n=2
             compare_structs("drama_database.txt", n, answers_file, match_lines, &match_count);
@@ -52,6 +55,28 @@ int main() {
             write_lines_to_struct("Thriller_database.txt", match_lines[r], n, &test);
         }
         else if (strcmp(genre, "Science fiction") == 0 ) {
+=======
+        clear_console();
+    }
+	else {
+        char genre[30] = { 0 };
+        int pull_line = 3;
+		size_t genre_size = sizeof(genre);
+		pull_line_from_file(answers_file,pull_line, genre, genre_size);
+        if (strcmp(genre, "Thriller") == 0) {
+            thriller_meeting_status(answers_file);
+            char status_answer[10] = { 0 };
+            pull_line_from_file(answers_file, 0, status_answer, sizeof(status_answer));
+            if (strcmp(status_answer, "yes") == 0) {
+                thriller_meeting_place(answers_file);
+            }
+            else if (strcmp(status_answer, "no") == 0) {
+                thriller_hero_duty(answers_file);
+            }
+        }
+
+        else if (strcmp(genre, "Science fiction") == 0 || strcmp(genre, "Fantasy") == 0) {
+>>>>>>> liron1
             sci_fi_or_fantasy_meeting_place(answers_file);
             n = 2; //in comedy n=2
             compare_structs("Science_fiction_database.txt", n, answers_file, match_lines, &match_count);

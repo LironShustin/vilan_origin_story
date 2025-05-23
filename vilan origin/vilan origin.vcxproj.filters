@@ -8,6 +8,11 @@
     <ClCompile Include="fileSaving.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="questions.c" />
+<<<<<<< HEAD
+=======
+    <ClCompile Include="encoders.c" />
+    <ClCompile Include="dynamicMemoryAllocation.c" />
+>>>>>>> liron1
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="design.h" />
@@ -17,12 +22,20 @@
     <ClInclude Include="fileSaving.h" />
     <ClInclude Include="questions.h" />
     <ClInclude Include="Structs&amp;Enums.h" />
+<<<<<<< HEAD
+=======
+    <ClInclude Include="encoders.h" />
+    <ClInclude Include="dynamicMemoryAllocation.h" />
+>>>>>>> liron1
   </ItemGroup>
   <ItemGroup>
     <Text Include="comedy_database.txt" />
     <Text Include="drama_database.txt" />
+<<<<<<< HEAD
     <Text Include="Thriller_database.txt" />
     <Text Include="Science_fiction_database.txt" />
     <Text Include="Fantasy_database.txt" />
+=======
+>>>>>>> liron1
   </ItemGroup>
 </Project>
