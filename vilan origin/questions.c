@@ -202,7 +202,7 @@ void how_long_since_meeting(char* story_file_name) {
 
 
 void thriller_meeting_status(char* story_file_name) {
-    char answer[100] = { 0 };
+    char answer[20] = { 0 };
     int choice = 0;
     while (choice < 1 || choice > 2) {
         print_colored("\nDid the hero and villain already meet each other?\n", YELLOW);
@@ -215,11 +215,9 @@ void thriller_meeting_status(char* story_file_name) {
     }
     if (choice == 1) {
         strcpy_s(answer, sizeof(answer), "Yes");
-		thriller_meeting_place(story_file_name);
     }
     else {
         strcpy_s(answer, sizeof(answer), "No");
-		thriller_hero_duty(story_file_name);
     }
     append_to_next_empty_line(story_file_name, answer);
 }
@@ -237,7 +235,6 @@ void thriller_meeting_place(char* story_file_name) {
     }
     if (choice == 1) {
         append_to_next_empty_line(story_file_name, "Canteen");
-		was_one_crew_member(story_file_name);
     }
     else {
         append_to_next_empty_line(story_file_name, "Investigation Office");
@@ -289,7 +286,3 @@ void clear_console() {
     system("clear");
 #endif
 }
-
-
-
-

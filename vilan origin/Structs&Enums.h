@@ -3,9 +3,9 @@
 #define MAX_LINE_LEN 1024
 #define True 1
 #define False 0
+
 typedef int BOOL;
 
-<<<<<<< HEAD
 typedef struct {
     char title[MAX_LINE_LEN];
     char author[MAX_LINE_LEN];
@@ -17,8 +17,6 @@ typedef struct {
     char line5[MAX_LINE_LEN];
 } Output_Vilain_Struct; // need to zeero out all feilds before using
 
-
-=======
 typedef enum {
 	TRAIT_CUNNING,
 	TRAIT_RUTHLESS,
@@ -52,7 +50,6 @@ typedef enum {
 	TRAIT_OPPORTUNISTIC,
 	TRAIT_COUNT // for bounds checking
 } villainTrait;
-
 
 typedef struct {
 	char name[50];
@@ -165,7 +162,6 @@ typedef struct {
 	char villain_target[300];
 	char plot_line[1000];
 }thriller_villain3;
->>>>>>> liron1
 
 #endif 
 #pragma once

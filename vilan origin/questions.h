@@ -17,6 +17,7 @@ void how_long_since_meeting(char* story_file_name);
 void thriller_meeting_place(char* story_file_name);
 void thriller_hero_duty(char* story_file_name);
 void was_one_crew_member(char* story_file_name);
+void clear_console();
 
 #endif
 #pragma once

@@ -20,7 +20,6 @@ void pull_line_from_file(const char* filename, int line_number, char* text_from_
 	}
 }
 
-<<<<<<< HEAD
 int write_lines_to_struct(const char* filename, int start_line, int N, Output_Vilain_Struct* data) { // N is the amount of lines we want to write to the struct from the db
     N = N + 2; // we want to print question answers and the 2 assitional antagonist and plot line fields
     FILE* file = fopen(filename, "r");
