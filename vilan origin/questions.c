@@ -3,7 +3,6 @@
 #include "design.h"
 #include "Structs&Enums.h"
 
-void clear_console();
 
 void is_realistic(BOOL* realistic, char* story_file_name) {
     char answer[10]; // buffer for input
@@ -272,12 +271,4 @@ void was_one_crew_member(char* story_file_name) {
     else {
         append_to_next_empty_line(story_file_name, "Crew member: No");
     }
-}
-
-void clear_console() {
-#ifdef _WIN32
-    system("cls");
-#else
-    system("clear");
-#endif
 }
