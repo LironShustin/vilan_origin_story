@@ -13,7 +13,7 @@ typedef struct {
     char line1[MAX_LINE_LEN];
     char line2[MAX_LINE_LEN];
     char line3[MAX_LINE_LEN];
-    char line4[MAX_LINE_LEN];
+	char line4[MAX_LINE_LEN];
     char line5[MAX_LINE_LEN];
 } Output_Vilain_Struct; // need to zeero out all feilds before using
 
