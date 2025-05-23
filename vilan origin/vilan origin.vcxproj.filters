@@ -3,39 +3,30 @@
   <ItemGroup>
     <ClCompile Include="design.c" />
     <ClCompile Include="editingFiles.c" />
+    <ClCompile Include="encoders.c" />
     <ClCompile Include="fileComparison.c" />
     <ClCompile Include="fileReading.c" />
     <ClCompile Include="fileSaving.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="questions.c" />
-<<<<<<< HEAD
-=======
-    <ClCompile Include="encoders.c" />
-    <ClCompile Include="dynamicMemoryAllocation.c" />
->>>>>>> liron1
+    <ClCompile Include="general.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="design.h" />
     <ClInclude Include="editingFiles.h" />
+    <ClInclude Include="encoders.h" />
     <ClInclude Include="fileComparison.h" />
     <ClInclude Include="fileReading.h" />
     <ClInclude Include="fileSaving.h" />
     <ClInclude Include="questions.h" />
     <ClInclude Include="Structs&amp;Enums.h" />
-<<<<<<< HEAD
-=======
-    <ClInclude Include="encoders.h" />
-    <ClInclude Include="dynamicMemoryAllocation.h" />
->>>>>>> liron1
+    <ClInclude Include="general.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="comedy_database.txt" />
     <Text Include="drama_database.txt" />
-<<<<<<< HEAD
-    <Text Include="Thriller_database.txt" />
-    <Text Include="Science_fiction_database.txt" />
     <Text Include="Fantasy_database.txt" />
-=======
->>>>>>> liron1
+    <Text Include="Science_fiction_database.txt" />
+    <Text Include="Thriller_database.txt" />
   </ItemGroup>
 </Project>
