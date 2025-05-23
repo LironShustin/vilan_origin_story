@@ -136,15 +136,12 @@ void sci_fi_or_fantasy_meeting_place(char* story_file_name) {
     switch (choice) {
     case 1:
         strcpy_s(place, sizeof(place), "Enemy captivity");
-        hero_villain_same_side(story_file_name);
         break;
     case 2:
         strcpy_s(place, sizeof(place), "Battlefield");
-        hero_villain_same_side(story_file_name);
         break;
     case 3:
         strcpy_s(place, sizeof(place), "Canteen");
-		was_one_crew_member(story_file_name);
         break;
     }
     append_to_next_empty_line(story_file_name, place);
@@ -168,7 +165,7 @@ void hero_villain_same_side(char* story_file_name) {
         strcpy_s(answer, sizeof(answer), "Same side: No");
     }
     append_to_next_empty_line(story_file_name, answer);
-    how_long_since_meeting(story_file_name);
+    //how_long_since_meeting(story_file_name);
 }
 
 void how_long_since_meeting(char* story_file_name) {
@@ -234,11 +231,10 @@ void thriller_meeting_place(char* story_file_name) {
         }
     }
     if (choice == 1) {
-        append_to_next_empty_line(story_file_name, "Canteen");
+        append_to_next_empty_line(story_file_name,"Canteen");
     }
-    else {
-        append_to_next_empty_line(story_file_name, "Investigation Office");
-        thriller_hero_duty(story_file_name);
+    else if (choice == 2){
+        append_to_next_empty_line(story_file_name,"Investigation Office");
     }
 }
 
@@ -257,7 +253,6 @@ void thriller_hero_duty(char* story_file_name) {
     case 1: append_to_next_empty_line(story_file_name, "Investigator"); break;
     case 2: append_to_next_empty_line(story_file_name, "Murderer"); break;
     case 3: append_to_next_empty_line(story_file_name, "Victim"); break;
-    case 4: append_to_next_empty_line(story_file_name, "Uninvolved"); break;
     }
 }
 

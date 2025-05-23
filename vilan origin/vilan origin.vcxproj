@@ -141,6 +141,7 @@
     <Text Include="Fantasy_database.txt" />
     <Text Include="Science_fiction_database.txt" />
     <Text Include="Thriller_database.txt" />
+    <Text Include="Thriller_havent_met_database.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="design.h" />

@@ -92,7 +92,7 @@ void compare_structs(const char* file1, int n, const char* file2, int match_line
                 break;
             }
         }
-        if (equal && *match_count < 10) {
+        if (equal && *match_count < 100) {
             match_lines[*match_count] = struct_start_line; // saves the start lines of all found matches
             (*match_count)++;
         }

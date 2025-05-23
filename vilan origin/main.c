@@ -14,7 +14,7 @@ int main() {
     Output_Vilain_Struct test = { 0 };
     char answers_file[260];
     BOOL realistic = True;
-    int match_lines[10] = { 0 };
+    int match_lines[60] = { 0 };
     int match_count = 1;
     int n;
     int r;
@@ -46,34 +46,38 @@ int main() {
     else {// unrealistic
         if (strcmp(genre, "Thriller") == 0) {
             thriller_meeting_status(answers_file);
-            char status_answer[10] = { 0 };
+            char status_answer[30] = { 0 };
             pull_line = 4; //meeting place is written in line 4
             pull_line_from_file(answers_file, pull_line, status_answer, sizeof(status_answer));
-            if (strcmp(status_answer, "yes") == 0) {
+            if (strcmp(status_answer, "Yes") == 0) {
+                char meeting_answer[30] = { 0 };
                 thriller_meeting_place(answers_file);
                 pull_line = 5; //meeting place is written in line 5
-                pull_line_from_file(answers_file, pull_line, status_answer, sizeof(status_answer));
-                if (strcmp(status_answer, "Investigation Office")) {
+                pull_line_from_file(answers_file, pull_line, meeting_answer, sizeof(meeting_answer));
+                if (strcmp(meeting_answer, "Investigation Office") == 0) {
                     thriller_hero_duty(answers_file);
                     n = 2; //in comedy n=2
                     //compare_structs("Thriller_database.txt", n, answers_file, match_lines, &match_count);
                     r = (rand() % match_count);
                     //write_lines_to_struct("Thriller_database.txt", match_lines[r], n, &test);
                 }
-                else if (strcmp(status_answer, "Canteen")) {
+                else if (strcmp(meeting_answer, "Canteen") == 0) {
                     was_one_crew_member(answers_file);
                     n = 2; //in comedy n=2
                     //compare_structs("Thriller_database.txt", n, answers_file, match_lines, &match_count);
                     r = (rand() % match_count);
                     //write_lines_to_struct("Thriller_database.txt", match_lines[r], n, &test);
                 }
+                else {
+                    printf("error");
+                }
             }
-            else if (strcmp(status_answer, "no") == 0) {
+            else if (strcmp(status_answer, "No") == 0) {
                 thriller_hero_duty(answers_file);
-                n = 2; //in comedy n=2
-                //compare_structs("Thriller_database.txt", n, answers_file, match_lines, &match_count);
+                n = 2; //in havent met n=2
+                compare_structs("Thriller_havent_met_database.txt", n, answers_file, match_lines, &match_count);
                 r = (rand() % match_count);
-                //write_lines_to_struct("Thriller_database.txt", match_lines[r], n, &test);
+                write_lines_to_struct("Thriller_havent_met_database.txt", match_lines[r], n, &test);
             }
         }
         else if (strcmp(genre, "Science fiction") == 0) {
