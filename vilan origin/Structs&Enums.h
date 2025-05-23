@@ -7,9 +7,9 @@
 typedef int BOOL;
 
 typedef struct {
-    char title[MAX_LINE_LEN];
-    char author[MAX_LINE_LEN];
-    char date[MAX_LINE_LEN];
+    char story_title[MAX_LINE_LEN];
+    char realistic[MAX_LINE_LEN];
+    char genre[MAX_LINE_LEN];
     char line1[MAX_LINE_LEN];
     char line2[MAX_LINE_LEN];
     char line3[MAX_LINE_LEN];

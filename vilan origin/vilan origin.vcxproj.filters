@@ -2,33 +2,23 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="design.c" />
-    <ClCompile Include="dynamicMemoryAllocation.c" />
     <ClCompile Include="editingFiles.c" />
-    <ClCompile Include="encoders.c" />
     <ClCompile Include="fileComparison.c" />
     <ClCompile Include="fileReading.c" />
     <ClCompile Include="fileSaving.c" />
+    <ClCompile Include="general.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="questions.c" />
-<<<<<<< HEAD
-=======
-    <ClCompile Include="general.c" />
->>>>>>> liron2
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="design.h" />
-    <ClInclude Include="dynamicMemoryAllocation.h" />
     <ClInclude Include="editingFiles.h" />
-    <ClInclude Include="encoders.h" />
     <ClInclude Include="fileComparison.h" />
     <ClInclude Include="fileReading.h" />
     <ClInclude Include="fileSaving.h" />
+    <ClInclude Include="general.h" />
     <ClInclude Include="questions.h" />
     <ClInclude Include="Structs&amp;Enums.h" />
-<<<<<<< HEAD
-=======
-    <ClInclude Include="general.h" />
->>>>>>> liron2
   </ItemGroup>
   <ItemGroup>
     <Text Include="comedy_database.txt" />

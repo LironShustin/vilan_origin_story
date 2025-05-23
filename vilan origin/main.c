@@ -8,6 +8,7 @@
 #include "Structs&Enums.h"
 #include "fileReading.h"
 #include "fileComparison.h"
+#include "general.h"
 
 int main() {
     srand((unsigned int)time(NULL)); // Seed the RNG

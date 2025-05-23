@@ -127,7 +127,6 @@
   <ItemGroup>
     <ClCompile Include="design.c" />
     <ClCompile Include="editingFiles.c" />
-    <ClCompile Include="encoders.c" />
     <ClCompile Include="fileComparison.c" />
     <ClCompile Include="fileReading.c" />
     <ClCompile Include="fileSaving.c" />
@@ -146,7 +145,6 @@
   <ItemGroup>
     <ClInclude Include="design.h" />
     <ClInclude Include="editingFiles.h" />
-    <ClInclude Include="encoders.h" />
     <ClInclude Include="fileComparison.h" />
     <ClInclude Include="fileReading.h" />
     <ClInclude Include="fileSaving.h" />
