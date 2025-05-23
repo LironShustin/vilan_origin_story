@@ -1,17 +1,160 @@
-Type: Realistic  
-Duration: Just met  
-Place: At work  
-Antagonist: A clueless but well-meaning boss who causes constant chaos  
-Plot: The hero's daily life is turned upside down by their boss's hilariously poor decision-making.  
-
-Type: Realistic  
-Duration: Less than a year  
-Place: At university  
-Antagonist: An overly competitive but harmless roommate  
-Plot: The hero finds themselves in a ridiculous, escalating prank war with their roommate.  
-
-Type: Realistic  
-Duration: More than a year  
-Place: You are family members  
-Antagonist: A nosy relative with an unending supply of bad advice  
-Plot: The hero navigates the chaotic family gatherings where their relative always stirs up trouble.
+just met
+family
+A long-lost aunt who thinks she's a psychic life coach.
+The hero tries to avoid being spiritually cleansed by an eccentric aunt who’s convinced their aura is full of bad juju—especially after she insists the family cat is their reincarnated uncle and tries to enroll everyone in a chakra workshop.
+just met
+family
+A surprise nephew who’s a social media influencer.
+The hero's quiet life is upended when a nephew they didn’t know existed starts vlogging every moment of their shared home life, including bathroom breaks, breakfast mishaps, and private breakdowns—all to an audience of two million subscribers.
+just met
+family
+A toddler with a blackmail folder.
+The hero is outwitted by a new baby cousin with an iPad full of embarrassing photos—and big demands, including an unlimited juice supply, veto power over bedtime stories, and a private seat at the grown-up table.
+just met
+family
+A distant cousin who only communicates with sock puppets.
+The hero is drawn into dramatic puppet conflicts, including therapy sessions between “Mr. Wobbles” and “Professor Sassy.”
+just met
+school
+A classmate who insists every pop quiz is a government conspiracy.
+The hero finds themselves caught between laughter and detention as their new desk neighbor sparks chaos with wild theories, including a belief that the math teacher is a lizard and the school mascot is a surveillance device.
+just met
+school
+A student who brings a new pet to class every day.
+The hero must survive daily biology lessons featuring lizards, goats, and one very angry raccoon.
+just met
+school
+A new principal who thinks he's a wizard.
+The hero is regularly late to class after being “cursed” with a detention scroll that sings in Latin.
+just met
+school
+A chemistry teacher who only communicates through interpretive dance.
+The hero tries to learn the periodic table while dodging flailing limbs and fog machine mishaps.
+just met
+work place
+A coworker with an emotional support goose.
+The hero struggles to maintain professionalism as their cubicle neighbor insists the bird boosts productivity, honks during presentations, and occasionally attacks supervisors on command.
+just met
+work place
+An intern who thinks they're in a spy thriller.
+The hero must navigate fake dossiers, coded messages, and staplers booby-trapped with glitter.
+just met
+work place
+A barista turned “coffee coach.”
+The hero can't get a latte without a motivational speech and an awkward fist bump.
+just met
+work place
+A janitor who moonlights as a “mystery artist.”
+The hero tries to uncover who keeps leaving banana sculptures in their chair every morning—and why.
+less than a year
+family
+A brother-in-law obsessed with conspiracy board games.
+The hero must protect their sanity as game night turns into a full-blown investigation with red string everywhere.
+less than a year
+family
+A grandma who joined a prank YouTube channel.
+The hero tries to enjoy family dinners while dodging exploding mashed potatoes and fake spiders in the gravy.
+less than a year
+family
+A niece who keeps trying to hypnotize everyone.
+The hero finds themselves clucking like a chicken at dinner parties thanks to a kid who watched one too many magic tutorials.
+less than a year
+family
+A cousin who runs a medieval reenactment group out of the garage.
+The hero just wants to park their car but ends up jousting for driveway rights, navigating surprise siege drills, and explaining to neighbors why a trebuchet is pointed at their recycling bins.
+less than a year
+school
+A cafeteria worker with a vendetta against picky eaters.
+The hero must tiptoe through lunchtime negotiations while dodging unsolicited mystery meat experiments.
+less than a year
+school
+A teacher's pet who moonlights as a hall monitor vigilante.
+The hero tries to fly under the radar, but the rule-obsessed new kid is always lurking with a citation pad.
+less than a year
+school
+A student who insists all debates must be settled with rap battles.
+The hero just wants to learn algebra, but finds themselves in lyrical duels between equations.
+less than a year
+school
+A classmate who thinks they're starring in a musical.
+The hero battles secondhand embarrassment as lockers, pencils, and announcements become props in random song numbers, and the cafeteria becomes the stage for a tragic love ballad to tater tots.
+less than a year
+work place
+A coworker who’s building a “zen fountain” that floods the office.
+The hero’s desk becomes a swamp while the antagonist insists on “letting the water flow freely, bro,” and refuses to shut it down because “the spreadsheet spirits demand moisture.”
+less than a year
+work place
+A bossy middle manager who uses sports metaphors for everything.
+The hero navigates every assignment like it’s the Super Bowl, whether it’s a spreadsheet or stapler handoff.
+less than a year
+work place
+A new colleague who keeps challenging everyone to hot dog eating contests.
+The hero tries to meet deadlines while dodging mustard stains and unsolicited training regimens.
+less than a year
+work place
+An IT guy who acts like a wizard guarding ancient secrets.
+The hero needs their email fixed but must first survive riddles and a USB “trial by fire.”
+less than a year
+work place
+A coworker who insists on trust falls every hour.
+The hero lives in fear of sudden backward leaning, even in the restroom or copy room, as the antagonist enforces their personal “team bonding initiative” with the enthusiasm of a life coach and the subtlety of a linebacker.
+more than a year
+family
+A twin sibling determined to beat the hero at everything.
+The hero’s peaceful weekend turns into a soapbox derby of petty one-upmanship and sabotaged waffles.
+more than a year
+family
+An uncle who’s writing a tell-all book with exaggerated stories.
+The hero scrambles to prevent the next family reunion from being titled "Diary of a Dysfunctional Doofus."
+more than a year
+family
+A mother-in-law with a drone surveillance hobby.
+The hero can't enjoy backyard barbecues anymore without ducking under the gaze of “Sky Mama,” whose drone constantly reports back with passive-aggressive messages and occasional grocery list reminders.
+more than a year
+family
+A cousin who thinks they’re in a reality TV show.
+The hero finds their every move commented on by someone wearing a fake mic and sunglasses indoors.
+more than a year
+family
+A sister who turned their childhood treehouse into an Airbnb.
+The hero is constantly mistaken for housekeeping while their own backyard becomes a tourist hotspot.
+more than a year
+school
+A former lab partner who became a substitute teacher.
+The hero must now call “Doug who once lit the beaker on fire” Mr. Douglas while trying to pass the course.
+more than a year
+school
+A frenemy who now runs the yearbook committee.
+The hero’s every awkward moment is immortalized in glossy print—with witty captions and bad angles, including a special full-page feature on “Most Likely to Trip Over Nothing” based entirely on them.
+more than a year
+school
+A childhood rival who still holds a grudge over spelling bee loss.
+The hero must spell their way out of sabotage as the antagonist lurks behind every S-U-C-C-E-S-S.
+more than a year
+school
+An old friend who keeps starting prank wars during finals.
+The hero just wants to study, but there’s toothpaste in their shoes and glitter bombs in their locker.
+more than a year
+school
+A former prom king obsessed with reliving the glory.
+The hero fights to keep the halls safe as the antagonist declares a weekly prom for “the people.”
+more than a year
+work place
+A former teammate turned motivational speaker with no filter.
+The hero dreads every morning meeting, which now includes fire-walking metaphors and unsolicited hugs.
+more than a year
+work place
+A colleague who hoards office supplies like a dragon.
+The hero’s quest for a pen leads through traps, riddles, and an increasingly suspicious paperclip fortress.
+more than a year
+work place
+A coworker who narrates everything dramatically.
+The hero's coffee run turns into “The Epic of Java” thanks to a cubicle neighbor with a flair for the theatrical, who delivers reports in Shakespearean soliloquies and refers to the photocopier as “The Beast of Bureaucracy.”
+more than a year
+work place
+A rival who runs a fake HR account to troll employees.
+The hero must figure out why everyone thinks they’ve been promoted to “Chief Fun Officer” against their will.
+more than a year
+work place
+A facilities manager who treats the office like a survival show.
+The hero must compete in “challenge rounds” for bathroom keys and supply closet access, while enduring pep talks about “adaptation in the wild cubicle habitat” and impromptu fire drill simulations involving smoke bombs and blindfolds.

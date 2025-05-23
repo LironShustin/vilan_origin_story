@@ -22,24 +22,48 @@ int main() {
     is_realistic(&realistic, answers_file);
     genre(realistic, answers_file);
 
+    char genre[30] = { 0 };
+    int pull_line = 3;
+    int genre_size = sizeof(genre);
+    pull_line_from_file(answers_file, pull_line, genre, genre_size);
 	if (realistic) {// drama and comedy have the same questions
         how_long_you_met(answers_file);
         first_meeting_place(answers_file);
-        n = 2; //in drama n=2
-        compare_structs("drama_database.txt", n, answers_file, match_lines, &match_count);
-        r = (rand() % match_count);
-        write_lines_to_struct("drama_database.txt", match_lines[r], n, &test);
+        if (strcmp(genre, "Drama") == 0) {
+            n = 2; //in drama n=2
+            compare_structs("drama_database.txt", n, answers_file, match_lines, &match_count);
+            r = (rand() % match_count);
+            write_lines_to_struct("drama_database.txt", match_lines[r], n, &test);
+        }
+        else if (strcmp(genre, "Comedy") == 0) {
+            n = 2; //in comedy n=2
+            compare_structs("comedy_database.txt", n, answers_file, match_lines, &match_count);
+            r = (rand() % match_count);
+            write_lines_to_struct("comedy_database.txt", match_lines[r], n, &test);
+        }
+
     }
 	else {// unrealistic
-        char genre[30] = { 0 };
-        int pull_line = 3;
-		int genre_size = sizeof(genre);
-		pull_line_from_file(answers_file,pull_line, genre, genre_size);
         if (strcmp(genre, "Thriller") == 0) {
             thriller_meeting_status(answers_file);
+            n = 2; //in comedy n=2
+            compare_structs("Thriller_database.txt", n, answers_file, match_lines, &match_count);
+            r = (rand() % match_count);
+            write_lines_to_struct("Thriller_database.txt", match_lines[r], n, &test);
         }
-        else if (strcmp(genre, "Science fiction") == 0 || strcmp(genre, "Fantasy") == 0) {
+        else if (strcmp(genre, "Science fiction") == 0 ) {
             sci_fi_or_fantasy_meeting_place(answers_file);
+            n = 2; //in comedy n=2
+            compare_structs("Science_fiction_database.txt", n, answers_file, match_lines, &match_count);
+            r = (rand() % match_count);
+            write_lines_to_struct("Science_fiction_database.txt", match_lines[r], n, &test);
+        }
+        else if (strcmp(genre, "Fantasy") == 0) {
+            sci_fi_or_fantasy_meeting_place(answers_file);
+            n = 2; //in comedy n=2
+            compare_structs("Fantasy_database.txt", n, answers_file, match_lines, &match_count);
+            r = (rand() % match_count);
+            write_lines_to_struct("Fantasy_database.txt", match_lines[r], n, &test);
         }
     }
     return 0;
