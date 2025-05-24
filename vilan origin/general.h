@@ -7,7 +7,7 @@
 
 void generate_random_traits(villainTrait traits[3]);
 void clear_console();
-void print_colored_rgb(const char* text, int r, int g, int b);
+
 
 
 

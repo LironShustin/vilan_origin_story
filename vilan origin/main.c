@@ -28,9 +28,9 @@ int main() {
     int genre_size = sizeof(genre);
     pull_line_from_file(answers_file, pull_line, genre, genre_size); // for genre pull line is 3 
     if (realistic) {// drama and comedy have the same questions
-        how_long_you_met(answers_file);
+        how_long_you_met(answers_file, genre);
         clear_console();
-        first_meeting_place(answers_file);
+        first_meeting_place(answers_file, genre);
         if (strcmp(genre, "Drama") == 0) {
             n = 2; //in drama n=2
             compare_structs("drama_database.txt", n, answers_file, match_lines, &match_count);
@@ -63,7 +63,7 @@ int main() {
                     //write_lines_to_struct("Thriller_database.txt", match_lines[r], n, &test);
                 }
                 else if (strcmp(meeting_answer, "Canteen") == 0) {
-                    was_one_crew_member(answers_file);
+                    was_one_crew_member(answers_file, genre);
                     n = 2; //in comedy n=2
                     //compare_structs("Thriller_database.txt", n, answers_file, match_lines, &match_count);
                     r = (rand() % match_count);
@@ -82,14 +82,14 @@ int main() {
             }
         }
         else if (strcmp(genre, "Science fiction") == 0) {
-            sci_fi_or_fantasy_meeting_place(answers_file);
+            sci_fi_or_fantasy_meeting_place(answers_file, genre);
             n = 2; //in comedy n=2
             //compare_structs("Science_fiction_database.txt", n, answers_file, match_lines, &match_count);
             r = (rand() % match_count);
             //write_lines_to_struct("Science_fiction_database.txt", match_lines[r], n, &test);
             }
         else if (strcmp(genre, "Fantasy") == 0) {
-            sci_fi_or_fantasy_meeting_place(answers_file);
+            sci_fi_or_fantasy_meeting_place(answers_file, genre);
             n = 2; //in comedy n=2
             //compare_structs("Fantasy_database.txt", n, answers_file, match_lines, &match_count);
             r = (rand() % match_count);
