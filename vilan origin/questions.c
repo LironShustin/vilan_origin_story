@@ -78,7 +78,6 @@ void genre(BOOL realistic, char* story_file_name) {
     append_to_next_empty_line(story_file_name, genre);
 }
 
-
 void how_long_you_met(char* story_file_name, char* genre) {
     char when_met[100] = { 0 };
     char choice = 0;
@@ -114,7 +113,6 @@ void how_long_you_met(char* story_file_name, char* genre) {
     append_to_next_empty_line(story_file_name, when_met);
 }
 
-
 void first_meeting_place(char* story_file_name, char* genre) {
     char meeting_place[100] = { 0 };
     char choice = 0;
@@ -149,7 +147,6 @@ void first_meeting_place(char* story_file_name, char* genre) {
     }
     append_to_next_empty_line(story_file_name, meeting_place);
 }
-
 
 void sci_fi_or_fantasy_meeting_place(char* story_file_name, char* genre) {
     char place[100] = { 0 };
@@ -215,7 +212,6 @@ void hero_villain_same_side(char* story_file_name, char* genre) {
     }
     append_to_next_empty_line(story_file_name, answer);
 }
-
 
 void how_long_since_meeting(char* story_file_name, char* genre) {
     char answer[100] = { 0 };
@@ -301,7 +297,6 @@ void thriller_meeting_place(char* story_file_name) {
     }
 }
 
-
 void thriller_hero_duty(char* story_file_name) {
     char choice = 0;
     while (choice != '1' && choice != '2' && choice != '3') {
@@ -322,7 +317,6 @@ void thriller_hero_duty(char* story_file_name) {
     case '3': append_to_next_empty_line(story_file_name, "Victim"); break;
     }
 }
-
 
 void was_one_crew_member(char* story_file_name, char* genre) {
 	if (strcmp(genre, "Fantasy") == 0) {
