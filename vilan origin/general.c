@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Structs&Enums.h"
+#include <windows.h>
 
 void generate_random_traits(villainTrait traits[3]) {
     int used[TRAIT_COUNT] = { 0 };
@@ -22,3 +23,6 @@ void clear_console() {
 #endif
 }
 
+void print_colored_rgb(const char* text, int r, int g, int b) {
+    printf("\x1b[38;2;%d;%d;%dm%s\x1b[0m", r, g, b, text);
+}

@@ -9,7 +9,6 @@
     <ClCompile Include="general.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="questions.c" />
-    <ClCompile Include="colors.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="design.h" />
@@ -20,7 +19,6 @@
     <ClInclude Include="general.h" />
     <ClInclude Include="questions.h" />
     <ClInclude Include="Structs&amp;Enums.h" />
-    <ClInclude Include="colors.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="comedy_database.txt" />
