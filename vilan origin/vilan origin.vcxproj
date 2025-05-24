@@ -125,6 +125,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="colors.c" />
     <ClCompile Include="design.c" />
     <ClCompile Include="editingFiles.c" />
     <ClCompile Include="fileComparison.c" />
@@ -143,6 +144,7 @@
     <Text Include="Thriller_havent_met_database.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="colors.h" />
     <ClInclude Include="design.h" />
     <ClInclude Include="editingFiles.h" />
     <ClInclude Include="fileComparison.h" />

@@ -3,13 +3,17 @@
 #include "design.h"
 #include "Structs&Enums.h"
 #include <windows.h>
-
+#include "colors.h"
+#include <stdio.h>
+#include <string.h>
 
 void is_realistic(BOOL* realistic, char* story_file_name) {
     char answer[10]; // buffer for input
     answer[0] = '0';
     while (answer[0] == '0') {
-        print_colored("Is your story realistic? (y/n)\n", YELLOW);
+        print_colored("Is your story realistic?\n", YELLOW);
+        print_colored_rgb("[y] Yes\n", 120, 255, 120);
+        print_colored_rgb("[n] No\n", 255, 80, 80);
         scanf_s("%9s", answer, (unsigned)_countof(answer));
         int c;
         while ((c = getchar()) != '\n' && c != EOF) {} // clear input buffer
@@ -28,13 +32,15 @@ void is_realistic(BOOL* realistic, char* story_file_name) {
         }
     }
 }
+
 void genre(BOOL realistic, char* story_file_name) {
     char choice = 0;
     char genre[30];
     if (realistic) {
         while (choice != '1' && choice != '2') {
             print_colored("\nWhat genre is your story?\n", YELLOW);
-            print_colored("1) Drama \n2) Comedy\n", CYAN);
+            print_colored_rgb("[1] ", 255, 255, 0); print_colored_rgb("Drama\n", 255, 180, 80);
+            print_colored_rgb("[2] ", 120, 255, 120); print_colored_rgb("Comedy\n", 120, 120, 255);
             scanf_s(" %c", &choice, 1);
             if (choice == '1') {
                 strcpy_s(genre, sizeof(genre), "Drama");
@@ -51,7 +57,9 @@ void genre(BOOL realistic, char* story_file_name) {
     else {
         while (choice != '1' && choice != '2' && choice != '3') {
             print_colored("\nWhat genre is your story?\n", YELLOW);
-            print_colored("1) Thriller \n2) Fantasy \n3) Science fiction \n", CYAN);
+            print_colored_rgb("[1] ", 255, 255, 0); print_colored_rgb("Thriller\n", 255, 180, 80);
+            print_colored_rgb("[2] ", 120, 255, 120); print_colored_rgb("Fantasy\n", 120, 120, 255);
+            print_colored_rgb("[3] ", 120, 255, 255); print_colored_rgb("Science Fiction\n", 120, 255, 120);
             scanf_s(" %c", &choice, 1);
             if (choice == '1') {
                 strcpy_s(genre, sizeof(genre), "Thriller");
@@ -77,7 +85,9 @@ void how_long_you_met(char* story_file_name) {
     char choice = 0;
     while (choice != '1' && choice != '2' && choice != '3') {
         print_colored("\nWhen the story starts how long have your hero and vilain known each other?\n", YELLOW);
-        print_colored("1) Just met\n2) Less than a year\n3) More than a year\n", CYAN);
+        print_colored_rgb("[1] Just met\n", 255, 255, 0);
+        print_colored_rgb("[2] Less than a year\n", 120, 255, 120);
+        print_colored_rgb("[3] More than a year\n", 120, 255, 255);
         scanf_s(" %c", &choice, 1);
         if (choice != '1' && choice != '2' && choice != '3') {
             print_colored("Invalid input, try again...\n", RED);
@@ -104,7 +114,9 @@ void first_meeting_place(char* story_file_name) {
     char choice = 0;
     while (choice != '1' && choice != '2' && choice != '3') {
         print_colored("\nWhere did the hero and villain first meet?\n", YELLOW);
-        print_colored("1) They are family related\n2) They studied together\n3) They worked together\n", CYAN);
+        print_colored_rgb("[1] Family\n", 255, 255, 0);
+        print_colored_rgb("[2] School\n", 120, 255, 120);
+        print_colored_rgb("[3] Work place\n", 120, 255, 255);
         scanf_s(" %c", &choice, 1);
         if (choice != '1' && choice != '2' && choice != '3') {
             print_colored("Invalid input, try again...\n", RED);
@@ -133,7 +145,9 @@ void sci_fi_or_fantasy_meeting_place(char* story_file_name) {
     char choice = 0;
     while (choice != '1' && choice != '2' && choice != '3') {
         print_colored("\nWhere did the hero and villain meet first?\n", YELLOW);
-        print_colored("1) Enemy captivity\n2) Battlefield\n3) Canteen\n", CYAN);
+        print_colored_rgb("[1] Enemy captivity\n", 255, 255, 0);
+        print_colored_rgb("[2] Battlefield\n", 120, 255, 120);
+        print_colored_rgb("[3] Canteen\n", 120, 255, 255);
         scanf_s(" %c", &choice, 1);
         clear_console();
         if (choice != '1' && choice != '2' && choice != '3') {
@@ -160,15 +174,16 @@ void hero_villain_same_side(char* story_file_name) {
     char choice = 0;
     while (choice != '1' && choice != '2') {
         print_colored("\nWere the hero and the villain on the same side?\n", YELLOW);
-        print_colored("1) Yes\n2) No\n", CYAN);
+        print_colored_rgb("[y] Yes\n", 120, 255, 120);
+        print_colored_rgb("[n] No\n", 255, 80, 80);
         scanf_s(" %c", &choice, 1);
         clear_console();
-        if (choice != '1' && choice != '2') {
+        if (choice != 'y' || choice != 'Y' && choice != 'n' || choice != 'N') {
             print_colored("Invalid input, try again...\n", RED);
             choice = 0;
         }
     }
-    if (choice == '1') {
+    if (choice == 'y' || choice == 'Y') {
         strcpy_s(answer, sizeof(answer), "Same side: Yes");
     }
     else {
@@ -183,7 +198,10 @@ void how_long_since_meeting(char* story_file_name) {
     char choice = 0;
     while (choice != '1' && choice != '2' && choice != '3' && choice != '4') {
         print_colored("\nHow long has it been since then?\n", YELLOW);
-        print_colored("1) Just met\n2) Less than a week\n3) More than a week\n4) More than a year\n", CYAN);
+        print_colored_rgb("[1] Just met\n", 255, 255, 0);
+        print_colored_rgb("[2] Less than a week\n", 120, 255, 120);
+        print_colored_rgb("[3] More than a week\n", 120, 255, 255);
+        print_colored_rgb("[4] More than a year\n", 120, 120, 255);
         scanf_s(" %c", &choice, 1);
         clear_console();
         if (choice != '1' && choice != '2' && choice != '3' && choice != '4') {
@@ -214,7 +232,9 @@ void thriller_meeting_status(char* story_file_name) {
     char answer[20] = { 0 };
     char choice = 0;
     while (choice != 'y' && choice != 'Y' && choice != 'n' && choice != 'N') {
-        print_colored("\nDid the hero and villain already meet each other? (y/n)\n", YELLOW);
+        print_colored("\nDid the hero and villain already meet each other?\n", YELLOW);
+        print_colored_rgb("[y] Yes\n", 120, 255, 120);
+        print_colored_rgb("[n] No\n", 255, 80, 80);
         scanf_s(" %c", &choice, 1);
         clear_console();
         if (choice != 'y' && choice != 'Y' && choice != 'n' && choice != 'N') {
@@ -234,8 +254,9 @@ void thriller_meeting_status(char* story_file_name) {
 void thriller_meeting_place(char* story_file_name) {
     char choice = 0;
     while (choice != '1' && choice != '2') {
-        print_colored("\nWhere?\n", YELLOW);
-        print_colored("1) Canteen\n2) Investigation Office\n", CYAN);
+        print_colored("\nWhere did they first meet each other?\n", YELLOW);
+        print_colored_rgb("[1] Canteen\n", 120, 255, 120);
+        print_colored_rgb("[2] Investigation Office\n", 120, 120, 255);
         scanf_s(" %c", &choice, 1);
         clear_console();
         if (choice != '1' && choice != '2') {
@@ -256,7 +277,9 @@ void thriller_hero_duty(char* story_file_name) {
     char choice = 0;
     while (choice != '1' && choice != '2' && choice != '3') {
         print_colored("\nWhat is the duty of the hero\n", YELLOW);
-        print_colored("1) Investigator\n2) Murderer\n3) Victim\n", CYAN);
+        print_colored_rgb("[1] Investigator\n", 120, 255, 120);
+        print_colored_rgb("[2] Murderer\n", 255, 80, 80);
+        print_colored_rgb("[3] Victim\n", 120, 120, 255);
         scanf_s(" %c", &choice, 1);
         clear_console();
         if (choice != '1' && choice != '2' && choice != '3') {
@@ -277,7 +300,9 @@ void thriller_hero_duty(char* story_file_name) {
 void was_one_crew_member(char* story_file_name) {
     char choice = 0;
     while (choice != 'y' && choice != 'Y' && choice != 'n' && choice != 'N') {
-        print_colored("\nWas one of them a crew member? (y/n)\n", YELLOW);
+        print_colored("\nWas one of them a crew member?\n", YELLOW);
+        print_colored_rgb("[y] Yes\n", 120, 255, 120);
+        print_colored_rgb("[n] No\n", 255, 80, 80);
         scanf_s(" %c", &choice, 1);
         if (choice != 'y' && choice != 'Y' && choice != 'n' && choice != 'N') {
             print_colored("Invalid input, try again...\n", RED);
