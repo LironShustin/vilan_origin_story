@@ -53,8 +53,8 @@ typedef enum {
 
 typedef struct {
 	char name[50];
-	char is_realistic[50]; //1) yes 2) no
-	char genre[50]; //1) Drama 2) Comedy
+	char is_realistic[50]; // yes
+	char genre[50]; //Drama 
 	char how_long_known[50]; //1) justMet 2) lessThanAYear 3) moreThanAyear
 	char where_met[50]; //1) Family 2) studiedTogether 3) Work
 	villainTrait traits[3]; // villain will always have 3 traits
@@ -64,8 +64,8 @@ typedef struct {
 
 typedef struct {
 	char name[50];
-	char is_realistic[50]; //1) yes 2) no
-	char genre[50]; //1) Drama 2) Comedy
+	char is_realistic[50]; // yes 
+	char genre[50]; // Comedy
 	char how_long_known[50]; //1) justMet 2) lessThanAYear 3) moreThanAyear
 	char where_met[50]; //1) Family 2) studiedTogether 3) Work
 	villainTrait traits[3]; // villain will always have 3 traits
@@ -75,8 +75,8 @@ typedef struct {
 
 typedef struct {
 	char name[50];
-	char is_realistic[50]; //1) yes 2) no
-	char genre[50]; //1) Drama 2) Comedy
+	char is_realistic[50]; // no
+	char genre[50]; //fantasy
 	char meeting_place[50]; //1) enemy_captivity 2) Battlefield
 	char same_side[50]; //1) yes 2) no
 	char how_long_sience_than[50]; //1) justMet 2) lessThanAweek 3) moreThanAWeek 4) moreThanAYear
@@ -87,8 +87,8 @@ typedef struct {
 
 typedef struct {
 	char name[50];
-	char is_realistic[50]; //1) yes 2) no
-	char genre[50]; //1) Drama 2) Comedy
+	char is_realistic[50];  // no
+	char genre[50]; //fantasy
 	char meeting_place[50]; //3) canteen
 	char crew_member[50]; //1) yes 2) no
 	villainTrait traits[3]; // villain will always have 3 traits
@@ -98,7 +98,7 @@ typedef struct {
 
 typedef struct {
 	char name[50];
-	char is_realistic[50]; //1) yes 2) no
+	char is_realistic[50];  // no
 	char genre[50]; //1) Drama 2) Comedy
 	char meeting_place[50]; //1) enemy_captivity 2) Battlefield
 	char same_side[50]; //1) yes 2) no
@@ -110,7 +110,7 @@ typedef struct {
 
 typedef struct {
 	char name[50];
-	char is_realistic[50]; //1) yes 2) no
+	char is_realistic[50]; // no
 	char genre[50]; //1) Drama 2) Comedy
 	char meeting_place[50]; //3) canteen
 	char crew_member[50]; //1) yes 2) no
@@ -121,7 +121,7 @@ typedef struct {
 
 typedef struct {
 	char name[50];
-	char is_realistic[50]; //1) yes 2) no
+	char is_realistic[50];  // no
 	char genre[50]; //1) Drama 2) Comedy
 	char did_they_meet[50]; //1) yes
 	char where[50]; //1) canteen
@@ -133,7 +133,7 @@ typedef struct {
 
 typedef struct {
 	char name[50];
-	char is_realistic[50]; //1) yes 2) no
+	char is_realistic[50];  // no
 	char genre[50]; //1) Drama 2) Comedy
 	char did_they_meet[50]; //1) yes
 	char where[50]; //2) investigationOffice
@@ -145,7 +145,7 @@ typedef struct {
 
 typedef struct {
 	char name[50];
-	char is_realistic[50]; //1) yes 2) no
+	char is_realistic[50];  // no
 	char genre[50]; //1) Drama 2) Comedy
 	char did_they_meet[50]; //2) no
 	char hero_duty[50]; //1) investigator 2) murderer 3) victim 4) uninvolved

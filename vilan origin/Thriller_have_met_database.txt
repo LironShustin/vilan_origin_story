@@ -1,0 +1,260 @@
+Yes
+Canteen
+Yes
+A reserved line cook who has been hiding their obsession behind a quiet demeanor.
+The villain, a longtime canteen worker, fixates on the hero after overhearing a revealing conversation. Their subtle manipulations escalate, driving the hero to question their own actions.
+Yes
+Canteen
+Yes
+An overly polite server who remembers everything the hero has ever said.
+They collect personal intel bit by bit, gradually recreating the hero’s identity online—then destroy it. The hero must unravel who’s behind the impersonation before it ruins them.
+Yes
+Canteen
+Yes
+A nostalgic kitchen supervisor who believes the hero owes them a debt.
+The villain uses food laced with substances to weaken the hero’s judgment, forcing them into a vulnerable position where the villain can exact an old revenge.
+Yes
+Canteen
+Yes
+An invisible dishwasher hiding a criminal past and a personal vendetta.
+The villain uses their anonymity to monitor the hero. When evidence of the hero’s secret mistake surfaces, the villain uses it to blackmail them into committing crimes.
+Yes
+Canteen
+Yes
+An ambitious chef who envies the hero’s past life.
+The villain imitates the hero, taking their personality traits and claiming their past. When the hero notices, it’s too late—reputation and relationships are already stolen.
+Yes
+Canteen
+Yes
+A janitor with a photographic memory and a bitter score to settle.
+Every day the villain records what they see. When the hero becomes a threat to their quiet revenge plot, the recordings are weaponized as a tool of exposure and shame.
+Yes
+Canteen
+Yes
+A warm-hearted lunch lady hiding violent tendencies.
+Behind every compliment and smile is a desire to manipulate the hero into thinking they’re loved—until that trust is weaponized to isolate and trap them.
+Yes
+Canteen
+Yes
+A veteran staffer who uses institutional knowledge to outmaneuver the hero.
+Years of knowing everyone’s routines allows the villain to stage events making the hero look unstable. The hero must break the cycle or risk forced psychiatric detention.
+Yes
+Canteen
+Yes
+A line cook with ties to organized crime.
+The villain uses the canteen’s deliveries as cover for illicit goods. When the hero accidentally uncovers the connection, the villain manipulates them into silence.
+Yes
+Canteen
+Yes
+A lonely baker who believes they and the hero share a destiny.
+They leave increasingly personal messages in the hero’s meals, culminating in an attempt to replace the hero’s closest relationships through manipulation.
+Yes
+Canteen
+Yes
+A tech-savvy dishwasher running an online smear campaign.
+The villain documents micro-interactions, twists them, and posts anonymously. The hero watches their public life unravel without ever knowing who’s behind it.
+Yes
+Canteen
+Yes
+A culinary mentor turned saboteur.
+Once a guide to the hero, the villain resents their success. They use food as psychological warfare—poisoning perception, not bodies, and driving the hero to self-doubt.
+Yes
+Canteen
+No
+A fellow diner who collects secrets through casual conversation.
+The villain subtly extracts sensitive details over months of lunches, then exposes them anonymously, triggering a career-ruining scandal for the hero.
+Yes
+Canteen
+No
+A corporate mole planted to befriend the hero.
+After gaining the hero’s trust through shared meals, the villain manipulates them into revealing confidential data that tanks their organization.
+Yes
+Canteen
+No
+A former friend of the hero who has secretly been plotting revenge.
+The villain intentionally crosses paths at the canteen to reenter the hero’s life and slowly dismantle their reputation through subtle social engineering.
+Yes
+Canteen
+No
+A stranger with a personal vendetta who seeks to psychologically trap the hero.
+Using chance encounters at lunch, the villain mimics behaviors and steals phrases to unnerve the hero, driving them into paranoia.
+Yes
+Canteen
+No
+An amateur actor testing manipulation techniques on the hero.
+The villain pretends to be a regular lunch guest, altering personality traits daily to gauge the hero’s reactions and slowly destabilize their trust in reality.
+Yes
+Canteen
+No
+A curious social engineer aiming to see how much control they can gain.
+Over time, the villain shifts group dynamics at shared tables to isolate the hero socially and make them dependent on villainous approval.
+Yes
+Canteen
+No
+A conspiracy theorist convinced the hero is part of a cover-up.
+They use the canteen’s communal space to spy, provoke, and eventually provoke a public meltdown that damages the hero’s public image.
+Yes
+Canteen
+No
+An online content creator using the hero for viral experiments.
+The villain records and manipulates interactions at lunch, creating deepfake videos that portray the hero as unhinged, leading to online and real-world backlash.
+Yes
+Investigation Office
+Investigator
+A jealous colleague determined to ruin the hero’s credibility.
+The villain plants subtle inconsistencies in reports, making the hero appear sloppy. As the hero investigates deeper, the villain intensifies their sabotage.
+Yes
+Investigation Office
+Investigator
+A high-ranking official who sees the hero as a threat.
+The villain sends the hero on wild goose chases, blocks promotions, and manipulates others into doubting the hero’s reliability to protect their own secret.
+Yes
+Investigation Office
+Investigator
+A charismatic media liaison spinning narratives behind the scenes.
+The villain controls what gets released publicly, warping the hero’s successful cases into scandals while painting themselves as the savior.
+Yes
+Investigation Office
+Investigator
+A field partner who fakes camaraderie while feeding the opposition.
+The villain lets evidence slip to suspects, causing the hero to fail repeatedly until their confidence is shattered and their career endangered.
+Yes
+Investigation Office
+Investigator
+A burned-out investigator trying to frame the hero to retire early.
+They plant evidence at scenes, blaming the hero for fabricated misconduct, hoping to quietly exit with severance while destroying the hero’s career.
+Yes
+Investigation Office
+Investigator
+A data analyst who manipulates digital evidence to alter cases.
+The villain subtly changes timestamps and deletes key logs, framing the hero’s entire track record as unreliable.
+Yes
+Investigation Office
+Investigator
+A mole working for a criminal syndicate.
+They shadow the hero’s every move, warning targets ahead of raids and painting the hero as a corrupt traitor within the agency.
+Yes
+Investigation Office
+Investigator
+A former protégé turned rival.
+They believe the hero stole credit for a big bust and now aim to take everything back—starting by publicly humiliating the hero at every turn.
+Yes
+Investigation Office
+Investigator
+A forensics expert addicted to control.
+They insert fake lab results, forcing the hero to question their instincts and pushing them into making fatal misjudgments.
+Yes
+Investigation Office
+Investigator
+An office therapist weaponizing psychological profiles.
+They subtly undermine the hero’s mental health evaluations, steering higher-ups toward a forced leave or institutionalization.
+Yes
+Investigation Office
+Investigator
+A double agent balancing two lives.
+They report everything the hero does to both the agency and a shadow organization, manipulating investigations to serve their hidden masters.
+Yes
+Investigation Office
+Investigator
+A seemingly loyal admin who feeds rumors to derail the hero.
+They manipulate internal communication, leaking half-truths to generate suspicion and tension that isolates the hero.
+Yes
+Investigation Office
+Investigator
+A veteran agent tired of new protocols.
+They see the hero as the face of a flawed system and target them to make an example—slowly orchestrating professional ruin.
+Yes
+Investigation Office
+Investigator
+A tech specialist who rewrites surveillance footage.
+They use deepfake tools to fabricate scenes where the hero appears complicit in crimes, blackmailing them into silence.
+Yes
+Investigation Office
+Investigator
+A profiler obsessed with testing the hero’s ethical limits.
+They manipulate case assignments and stage moral dilemmas, trying to catch the hero betraying their code to prove everyone is corruptible.
+Yes
+Investigation Office
+Murderer
+A cold forensic analyst studying the hero’s techniques.
+The villain replicates the hero’s past crimes with minor variations, daring them to catch a version of themselves they’ve tried to bury.
+Yes
+Investigation Office
+Murderer
+A charming detective trying to outkill the hero.
+The villain idolizes the hero’s previous murders and sees them as a rival. They escalate violence to provoke the hero back into the game.
+Yes
+Investigation Office
+Murderer
+A crime scene photographer who alters evidence.
+They doctor photos to redirect suspicion and protect their identity, pushing the hero toward innocent scapegoats.
+Yes
+Investigation Office
+Murderer
+A case file archivist who leaves coded taunts.
+The villain edits archived reports with clues only the hero will notice, luring them into a maze of guilt and reawakened instinct.
+Yes
+Investigation Office
+Murderer
+An old classmate now working behind the scenes.
+They kill copycat-style and plant evidence linking crimes to the hero’s signature. With each body, the hero grows more implicated.
+Yes
+Investigation Office
+Murderer
+An autopsy tech with a god complex.
+They leave subtle anatomical “signatures” in each body, creating a rivalry only the hero can recognize—one designed to draw them out.
+Yes
+Investigation Office
+Murderer
+A confession interviewer pushing suspects to lie.
+They redirect investigations to protect themselves, feeding just enough truth to confuse the hero and destabilize their leads.
+Yes
+Investigation Office
+Murderer
+A records analyst obsessed with pattern recognition.
+They emulate the hero’s crime patterns, claiming they're doing it for statistical balance—murder as equilibrium.
+Yes
+Investigation Office
+Murderer
+An ex-undercover operative who snapped.
+Once close to the hero, they now believe they must “cleanse” the system. They leave cryptic letters signed in the hero’s name, framing them.
+Yes
+Investigation Office
+Victim
+A trauma counselor who subtly distorts the hero’s memory.
+They use therapy sessions to implant false recollections, making the hero doubt their own story until they accept guilt for something they didn’t do.
+Yes
+Investigation Office
+Victim
+A fellow victim who believes the hero caused their suffering.
+They stalk the hero under the guise of shared recovery, slowly revealing a plan to make the hero experience the same pain they did.
+Yes
+Investigation Office
+Victim
+A grieving sibling who blames the hero for their loss.
+They embed themselves in the support system, leaking the hero’s secrets to the media and triggering public backlash.
+Yes
+Investigation Office
+Victim
+A former witness who faked their trauma.
+They manipulate sympathy to gain proximity to the hero, then blackmail them using fabricated past confessions.
+Yes
+Investigation Office
+Victim
+An artist commissioned to portray the tragedy.
+They distort the hero’s story in haunting public displays, building a campaign that turns society against the hero as the face of failure.
+Yes
+Investigation Office
+Victim
+A legal intern who lost someone in the case.
+They shadow the hero’s actions, gathering details to quietly sabotage any chance the hero has at closure or justice.
+Yes
+Investigation Office
+Victim
+A journalist pretending to document recovery.
+They secretly film the hero’s breakdowns, planning a documentary that exposes their instability and frames them as complicit.
+Yes
+Investigation Office
+Victim
+A former ally who was silenced by the system.
+They now believe the hero was part of the cover-up. Their mission: expose the hero’s involvement and bring the entire agency down with them.

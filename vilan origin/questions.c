@@ -9,7 +9,7 @@ void is_realistic(BOOL* realistic, char* story_file_name) {
     answer[0] = '0';
     while (answer[0] == '0') {
         print_colored("Is your story realistic? (y/n)\n", YELLOW);
-        scanf_s("%9s", answer, (unsigned)_countof(answer));
+        scanf_s(" %9s", answer, (unsigned)_countof(answer));
         int c;
         while ((c = getchar()) != '\n' && c != EOF) {} // clear input buffer
 
@@ -160,10 +160,10 @@ void hero_villain_same_side(char* story_file_name) {
         }
     }
     if (choice == 1) {
-        strcpy_s(answer, sizeof(answer), "Same side: Yes");
+        strcpy_s(answer, sizeof(answer), "Yes");
     }
     else {
-        strcpy_s(answer, sizeof(answer), "Same side: No");
+        strcpy_s(answer, sizeof(answer), "No");
     }
     append_to_next_empty_line(story_file_name, answer);
     //how_long_since_meeting(story_file_name);
@@ -267,10 +267,10 @@ void was_one_crew_member(char* story_file_name) {
         }
     }
     if (choice == 1) {
-        append_to_next_empty_line(story_file_name, "Crew member: Yes");
+        append_to_next_empty_line(story_file_name, "Yes");
     }
     else {
-        append_to_next_empty_line(story_file_name, "Crew member: No");
+        append_to_next_empty_line(story_file_name, "No");
     }
 }
 

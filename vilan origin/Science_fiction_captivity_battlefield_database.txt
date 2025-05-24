@@ -1,0 +1,595 @@
+Enemy captivity
+Yes
+More than a year
+A former ally turned cyber-tyrant hunting the hero across star systems.
+Once imprisoned together, the hero and villain bonded, only to diverge ideologically over time. Now, the villain enforces oppressive order through AI, seeking to convert or eliminate the hero.
+Battlefield
+No
+Just met
+A brutal opponent introduced in a sudden ambush.
+After ambushing the hero’s team, the villain’s brutal efficiency revealed a deeper strategy at play. Their presence is a signal of worse to come.
+Battlefield
+Yes
+More than a week
+A disillusioned soldier now spearheading a rogue offensive.
+Bonded over missions, the hero and villain diverged when orders clashed with ethics. The villain now attacks supply routes, framing themselves as a revolutionary leader.
+Enemy captivity
+No
+Just met
+A dangerous stranger from a shared cellblock, now a rogue factor.
+Though the hero hardly knew them, the villain has used their shared imprisonment as a propaganda tool, gaining followers and declaring the hero a traitor to their cause.
+Enemy captivity
+Yes
+Less than a week
+An enigmatic cellmate with unclear motives and growing influence.
+Though briefly imprisoned together, the villain manipulated the hero to gain freedom. Now a rising force, they use that brief alliance to cast doubt on the hero's integrity.
+Battlefield
+No
+More than a week
+An aggressive tactician fueled by past defeat.
+Defeated by the hero once, the villain now returns with enhanced forces and a thirst for revenge, tracking the hero across space in a calculated vendetta.
+Enemy captivity
+Yes
+More than a week
+A shared prisoner who now commands enemy forces from the shadows.
+The hero and villain escaped captivity and went separate ways. The villain re-emerges as the unseen hand guiding enemy factions, leveraging intelligence gathered in prison.
+Battlefield
+Yes
+Less than a week
+A short-lived ally turned relentless pursuer.
+Though briefly on the same side, the villain saw enough to view the hero as an obstacle to 'real progress.' They now lead advanced units to hunt the hero across sectors.
+Enemy captivity
+No
+More than a year
+An ideological extremist turned war profiteer.
+Imprisoned on opposing sides, the hero and villain clashed behind bars. Years later, the villain thrives on chaos, orchestrating conflict to feed their mercenary empire.
+Battlefield
+No
+More than a year
+A relentless rival whose vendetta spans multiple campaigns.
+Their clashes with the hero have become legend. Each new battle escalates the stakes, with the villain obsessed with proving their supremacy.
+Enemy captivity
+No
+Less than a week
+An opportunistic saboteur forged in shared captivity.
+The villain leveraged their short captivity with the hero to escape. Since then, they've become a notorious hacker destabilizing both sides of the war.
+Battlefield
+Yes
+More than a year
+A trusted commander who betrayed the hero in a devastating coup.
+Once close comrades in countless battles, the villain turned on the hero, leading a faction into rebellion. Their knowledge of the hero's tactics makes them a lethal adversary.
+Battlefield
+No
+Just met
+A brutal opponent introduced in a sudden ambush.
+After ambushing the hero’s team, the villain’s brutal efficiency revealed a deeper strategy at play. Their presence is a signal of worse to come.
+Enemy captivity
+Yes
+Just met
+A mysterious former ally encountered in a brief but intense captivity.
+The hero recalls the villain only from strange conversations in a prison cell. Yet this figure now disrupts interstellar diplomacy, and their knowledge of the hero is unsettlingly deep.
+Enemy captivity
+No
+More than a week
+A manipulative prisoner exploiting the hero's past.
+While briefly imprisoned together, the villain learned secrets from the hero. Now they use those details in psychological warfare, undermining the hero across the galaxy.
+Battlefield
+Yes
+Just met
+A new recruit turned traitor during their first mission.
+On their first operation with the hero, the villain betrayed the squad mid-mission, unleashing chaos. Now infamous, they manipulate battle data to frame the hero as the traitor.
+Battlefield
+Yes
+More than a week
+A disillusioned soldier now spearheading a rogue offensive.
+Bonded over missions, the hero and villain diverged when orders clashed with ethics. The villain now attacks supply routes, framing themselves as a revolutionary leader.
+Enemy captivity
+Yes
+Less than a week
+An enigmatic cellmate with unclear motives and growing influence.
+Though briefly imprisoned together, the villain manipulated the hero to gain freedom. Now a rising force, they use that brief alliance to cast doubt on the hero's integrity.
+Enemy captivity
+No
+Just met
+A dangerous stranger from a shared cellblock, now a rogue factor.
+Though the hero hardly knew them, the villain has used their shared imprisonment as a propaganda tool, gaining followers and declaring the hero a traitor to their cause.
+Battlefield
+No
+More than a week
+An aggressive tactician fueled by past defeat.
+Defeated by the hero once, the villain now returns with enhanced forces and a thirst for revenge, tracking the hero across space in a calculated vendetta.
+Enemy captivity
+Yes
+More than a year
+A former ally turned cyber-tyrant hunting the hero across star systems.
+Once imprisoned together, the hero and villain bonded, only to diverge ideologically over time. Now, the villain enforces oppressive order through AI, seeking to convert or eliminate the hero.
+Battlefield
+No
+Less than a week
+A brutal opponent introduced in a sudden ambush.
+After ambushing the hero’s team, the villain’s brutal efficiency revealed a deeper strategy at play. Their presence is a signal of worse to come.
+Enemy captivity
+No
+More than a week
+A manipulative prisoner exploiting the hero's past.
+While briefly imprisoned together, the villain learned secrets from the hero. Now they use those details in psychological warfare, undermining the hero across the galaxy.
+Battlefield
+Yes
+More than a year
+A trusted commander who betrayed the hero in a devastating coup.
+Once close comrades in countless battles, the villain turned on the hero, leading a faction into rebellion. Their knowledge of the hero's tactics makes them a lethal adversary.
+Enemy captivity
+Yes
+More than a week
+A shared prisoner who now commands enemy forces from the shadows.
+The hero and villain escaped captivity and went separate ways. The villain re-emerges as the unseen hand guiding enemy factions, leveraging intelligence gathered in prison.
+Battlefield
+Yes
+Just met
+A new recruit turned traitor during their first mission.
+On their first operation with the hero, the villain betrayed the squad mid-mission, unleashing chaos. Now infamous, they manipulate battle data to frame the hero as the traitor.
+Enemy captivity
+Yes
+Just met
+A mysterious former ally encountered in a brief but intense captivity.
+The hero recalls the villain only from strange conversations in a prison cell. Yet this figure now disrupts interstellar diplomacy, and their knowledge of the hero is unsettlingly deep.
+Battlefield
+No
+More than a year
+A relentless rival whose vendetta spans multiple campaigns.
+Their clashes with the hero have become legend. Each new battle escalates the stakes, with the villain obsessed with proving their supremacy.
+Battlefield
+No
+Less than a week
+A brutal opponent introduced in a sudden ambush.
+After ambushing the hero’s team, the villain’s brutal efficiency revealed a deeper strategy at play. Their presence is a signal of worse to come.
+Enemy captivity
+No
+Less than a week
+An opportunistic saboteur forged in shared captivity.
+The villain leveraged their short captivity with the hero to escape. Since then, they've become a notorious hacker destabilizing both sides of the war.
+Battlefield
+Yes
+Less than a week
+A short-lived ally turned relentless pursuer.
+Though briefly on the same side, the villain saw enough to view the hero as an obstacle to 'real progress.' They now lead advanced units to hunt the hero across sectors.
+Enemy captivity
+No
+More than a year
+An ideological extremist turned war profiteer.
+Imprisoned on opposing sides, the hero and villain clashed behind bars. Years later, the villain thrives on chaos, orchestrating conflict to feed their mercenary empire.
+Enemy captivity
+Yes
+More than a week
+A shared prisoner who now commands enemy forces from the shadows.
+The hero and villain escaped captivity and went separate ways. The villain re-emerges as the unseen hand guiding enemy factions, leveraging intelligence gathered in prison.
+Battlefield
+No
+More than a week
+An aggressive tactician fueled by past defeat.
+Defeated by the hero once, the villain now returns with enhanced forces and a thirst for revenge, tracking the hero across space in a calculated vendetta.
+Enemy captivity
+Yes
+Just met
+A mysterious former ally encountered in a brief but intense captivity.
+The hero recalls the villain only from strange conversations in a prison cell. Yet this figure now disrupts interstellar diplomacy, and their knowledge of the hero is unsettlingly deep.
+Battlefield
+Yes
+More than a year
+A trusted commander who betrayed the hero in a devastating coup.
+Once close comrades in countless battles, the villain turned on the hero, leading a faction into rebellion. Their knowledge of the hero's tactics makes them a lethal adversary.
+Battlefield
+No
+Just met
+A brutal opponent introduced in a sudden ambush.
+After ambushing the hero’s team, the villain’s brutal efficiency revealed a deeper strategy at play. Their presence is a signal of worse to come.
+Enemy captivity
+No
+More than a week
+A manipulative prisoner exploiting the hero's past.
+While briefly imprisoned together, the villain learned secrets from the hero. Now they use those details in psychological warfare, undermining the hero across the galaxy.
+Battlefield
+Yes
+Just met
+A new recruit turned traitor during their first mission.
+On their first operation with the hero, the villain betrayed the squad mid-mission, unleashing chaos. Now infamous, they manipulate battle data to frame the hero as the traitor.
+Battlefield
+Yes
+More than a week
+A disillusioned soldier now spearheading a rogue offensive.
+Bonded over missions, the hero and villain diverged when orders clashed with ethics. The villain now attacks supply routes, framing themselves as a revolutionary leader.
+Enemy captivity
+No
+Less than a week
+An opportunistic saboteur forged in shared captivity.
+The villain leveraged their short captivity with the hero to escape. Since then, they've become a notorious hacker destabilizing both sides of the war.
+Enemy captivity
+Yes
+More than a year
+A former ally turned cyber-tyrant hunting the hero across star systems.
+Once imprisoned together, the hero and villain bonded, only to diverge ideologically over time. Now, the villain enforces oppressive order through AI, seeking to convert or eliminate the hero.
+Battlefield
+No
+More than a year
+A relentless rival whose vendetta spans multiple campaigns.
+Their clashes with the hero have become legend. Each new battle escalates the stakes, with the villain obsessed with proving their supremacy.
+Battlefield
+Yes
+Less than a week
+A short-lived ally turned relentless pursuer.
+Though briefly on the same side, the villain saw enough to view the hero as an obstacle to 'real progress.' They now lead advanced units to hunt the hero across sectors.
+Enemy captivity
+No
+More than a year
+An ideological extremist turned war profiteer.
+Imprisoned on opposing sides, the hero and villain clashed behind bars. Years later, the villain thrives on chaos, orchestrating conflict to feed their mercenary empire.
+Enemy captivity
+Yes
+Less than a week
+An enigmatic cellmate with unclear motives and growing influence.
+Though briefly imprisoned together, the villain manipulated the hero to gain freedom. Now a rising force, they use that brief alliance to cast doubt on the hero's integrity.
+Battlefield
+Yes
+More than a week
+A disillusioned soldier now spearheading a rogue offensive.
+Bonded over missions, the hero and villain diverged when orders clashed with ethics. The villain now attacks supply routes, framing themselves as a revolutionary leader.
+Battlefield
+No
+Just met
+A brutal opponent introduced in a sudden ambush.
+After ambushing the hero’s team, the villain’s brutal efficiency revealed a deeper strategy at play. Their presence is a signal of worse to come.
+Enemy captivity
+Yes
+More than a year
+A former ally turned cyber-tyrant hunting the hero across star systems.
+Once imprisoned together, the hero and villain bonded, only to diverge ideologically over time. Now, the villain enforces oppressive order through AI, seeking to convert or eliminate the hero.
+Enemy captivity
+No
+Less than a week
+An opportunistic saboteur forged in shared captivity.
+The villain leveraged their short captivity with the hero to escape. Since then, they've become a notorious hacker destabilizing both sides of the war.
+Battlefield
+Yes
+Just met
+A new recruit turned traitor during their first mission.
+On their first operation with the hero, the villain betrayed the squad mid-mission, unleashing chaos. Now infamous, they manipulate battle data to frame the hero as the traitor.
+Battlefield
+Yes
+More than a year
+A trusted commander who betrayed the hero in a devastating coup.
+Once close comrades in countless battles, the villain turned on the hero, leading a faction into rebellion. Their knowledge of the hero's tactics makes them a lethal adversary.
+Battlefield
+No
+More than a week
+An aggressive tactician fueled by past defeat.
+Defeated by the hero once, the villain now returns with enhanced forces and a thirst for revenge, tracking the hero across space in a calculated vendetta.
+Enemy captivity
+Yes
+More than a week
+A shared prisoner who now commands enemy forces from the shadows.
+The hero and villain escaped captivity and went separate ways. The villain re-emerges as the unseen hand guiding enemy factions, leveraging intelligence gathered in prison.
+Enemy captivity
+Yes
+Just met
+A mysterious former ally encountered in a brief but intense captivity.
+The hero recalls the villain only from strange conversations in a prison cell. Yet this figure now disrupts interstellar diplomacy, and their knowledge of the hero is unsettlingly deep.
+Battlefield
+No
+More than a year
+A relentless rival whose vendetta spans multiple campaigns.
+Their clashes with the hero have become legend. Each new battle escalates the stakes, with the villain obsessed with proving their supremacy.
+Battlefield
+Yes
+Less than a week
+A short-lived ally turned relentless pursuer.
+Though briefly on the same side, the villain saw enough to view the hero as an obstacle to 'real progress.' They now lead advanced units to hunt the hero across sectors.
+Enemy captivity
+No
+More than a week
+A manipulative prisoner exploiting the hero's past.
+While briefly imprisoned together, the villain learned secrets from the hero. Now they use those details in psychological warfare, undermining the hero across the galaxy.
+Enemy captivity
+Yes
+More than a week
+A shared prisoner who now commands enemy forces from the shadows.
+The hero and villain escaped captivity and went separate ways. The villain re-emerges as the unseen hand guiding enemy factions, leveraging intelligence gathered in prison.
+Battlefield
+No
+Less than a week
+A brutal opponent introduced in a sudden ambush.
+After ambushing the hero’s team, the villain’s brutal efficiency revealed a deeper strategy at play. Their presence is a signal of worse to come.
+Enemy captivity
+Yes
+Just met
+A mysterious former ally encountered in a brief but intense captivity.
+The hero recalls the villain only from strange conversations in a prison cell. Yet this figure now disrupts interstellar diplomacy, and their knowledge of the hero is unsettlingly deep.
+Battlefield
+Yes
+More than a week
+A disillusioned soldier now spearheading a rogue offensive.
+Bonded over missions, the hero and villain diverged when orders clashed with ethics. The villain now attacks supply routes, framing themselves as a revolutionary leader.
+Battlefield
+No
+Just met
+A brutal opponent introduced in a sudden ambush.
+After ambushing the hero’s team, the villain’s brutal efficiency revealed a deeper strategy at play. Their presence is a signal of worse to come.
+Enemy captivity
+No
+Less than a week
+An opportunistic saboteur forged in shared captivity.
+The villain leveraged their short captivity with the hero to escape. Since then, they've become a notorious hacker destabilizing both sides of the war.
+Battlefield
+Yes
+Just met
+A new recruit turned traitor during their first mission.
+On their first operation with the hero, the villain betrayed the squad mid-mission, unleashing chaos. Now infamous, they manipulate battle data to frame the hero as the traitor.
+Enemy captivity
+No
+More than a year
+An ideological extremist turned war profiteer.
+Imprisoned on opposing sides, the hero and villain clashed behind bars. Years later, the villain thrives on chaos, orchestrating conflict to feed their mercenary empire.
+Enemy captivity
+Yes
+Less than a week
+An enigmatic cellmate with unclear motives and growing influence.
+Though briefly imprisoned together, the villain manipulated the hero to gain freedom. Now a rising force, they use that brief alliance to cast doubt on the hero's integrity.
+Battlefield
+No
+More than a year
+A relentless rival whose vendetta spans multiple campaigns.
+Their clashes with the hero have become legend. Each new battle escalates the stakes, with the villain obsessed with proving their supremacy.
+Enemy captivity
+Yes
+More than a week
+A shared prisoner who now commands enemy forces from the shadows.
+The hero and villain escaped captivity and went separate ways. The villain re-emerges as the unseen hand guiding enemy factions, leveraging intelligence gathered in prison.
+Battlefield
+Yes
+More than a year
+A trusted commander who betrayed the hero in a devastating coup.
+Once close comrades in countless battles, the villain turned on the hero, leading a faction into rebellion. Their knowledge of the hero's tactics makes them a lethal adversary.
+Enemy captivity
+No
+More than a week
+A manipulative prisoner exploiting the hero's past.
+While briefly imprisoned together, the villain learned secrets from the hero. Now they use those details in psychological warfare, undermining the hero across the galaxy.
+Enemy captivity
+Yes
+Just met
+A mysterious former ally encountered in a brief but intense captivity.
+The hero recalls the villain only from strange conversations in a prison cell. Yet this figure now disrupts interstellar diplomacy, and their knowledge of the hero is unsettlingly deep.
+Battlefield
+No
+More than a week
+An aggressive tactician fueled by past defeat.
+Defeated by the hero once, the villain now returns with enhanced forces and a thirst for revenge, tracking the hero across space in a calculated vendetta.
+Battlefield
+Yes
+More than a week
+A disillusioned soldier now spearheading a rogue offensive.
+Bonded over missions, the hero and villain diverged when orders clashed with ethics. The villain now attacks supply routes, framing themselves as a revolutionary leader.
+Battlefield
+No
+Just met
+A brutal opponent introduced in a sudden ambush.
+After ambushing the hero’s team, the villain’s brutal efficiency revealed a deeper strategy at play. Their presence is a signal of worse to come.
+Battlefield
+Yes
+Less than a week
+A short-lived ally turned relentless pursuer.
+Though briefly on the same side, the villain saw enough to view the hero as an obstacle to 'real progress.' They now lead advanced units to hunt the hero across sectors.
+Enemy captivity
+Yes
+More than a year
+A former ally turned cyber-tyrant hunting the hero across star systems.
+Once imprisoned together, the hero and villain bonded, only to diverge ideologically over time. Now, the villain enforces oppressive order through AI, seeking to convert or eliminate the hero.
+Battlefield
+No
+More than a year
+A relentless rival whose vendetta spans multiple campaigns.
+Their clashes with the hero have become legend. Each new battle escalates the stakes, with the villain obsessed with proving their supremacy.
+Enemy captivity
+No
+Less than a week
+An opportunistic saboteur forged in shared captivity.
+The villain leveraged their short captivity with the hero to escape. Since then, they've become a notorious hacker destabilizing both sides of the war.
+Battlefield
+Yes
+Just met
+A new recruit turned traitor during their first mission.
+On their first operation with the hero, the villain betrayed the squad mid-mission, unleashing chaos. Now infamous, they manipulate battle data to frame the hero as the traitor.
+Enemy captivity
+No
+More than a week
+A manipulative prisoner exploiting the hero's past.
+While briefly imprisoned together, the villain learned secrets from the hero. Now they use those details in psychological warfare, undermining the hero across the galaxy.
+Enemy captivity
+Yes
+More than a week
+A shared prisoner who now commands enemy forces from the shadows.
+The hero and villain escaped captivity and went separate ways. The villain re-emerges as the unseen hand guiding enemy factions, leveraging intelligence gathered in prison.
+Battlefield
+Yes
+Less than a week
+A short-lived ally turned relentless pursuer.
+Though briefly on the same side, the villain saw enough to view the hero as an obstacle to 'real progress.' They now lead advanced units to hunt the hero across sectors.
+Enemy captivity
+Yes
+Just met
+A mysterious former ally encountered in a brief but intense captivity.
+The hero recalls the villain only from strange conversations in a prison cell. Yet this figure now disrupts interstellar diplomacy, and their knowledge of the hero is unsettlingly deep.
+Battlefield
+No
+More than a week
+An aggressive tactician fueled by past defeat.
+Defeated by the hero once, the villain now returns with enhanced forces and a thirst for revenge, tracking the hero across space in a calculated vendetta.
+Battlefield
+Yes
+More than a year
+A trusted commander who betrayed the hero in a devastating coup.
+Once close comrades in countless battles, the villain turned on the hero, leading a faction into rebellion. Their knowledge of the hero's tactics makes them a lethal adversary.
+Enemy captivity
+No
+More than a year
+An ideological extremist turned war profiteer.
+Imprisoned on opposing sides, the hero and villain clashed behind bars. Years later, the villain thrives on chaos, orchestrating conflict to feed their mercenary empire.
+Battlefield
+Yes
+Just met
+A new recruit turned traitor during their first mission.
+On their first operation with the hero, the villain betrayed the squad mid-mission, unleashing chaos. Now infamous, they manipulate battle data to frame the hero as the traitor.
+Enemy captivity
+No
+Less than a week
+An opportunistic saboteur forged in shared captivity.
+The villain leveraged their short captivity with the hero to escape. Since then, they've become a notorious hacker destabilizing both sides of the war.
+Battlefield
+No
+Less than a week
+A brutal opponent introduced in a sudden ambush.
+After ambushing the hero’s team, the villain’s brutal efficiency revealed a deeper strategy at play. Their presence is a signal of worse to come.
+Enemy captivity
+Yes
+Less than a week
+An enigmatic cellmate with unclear motives and growing influence.
+Though briefly imprisoned together, the villain manipulated the hero to gain freedom. Now a rising force, they use that brief alliance to cast doubt on the hero's integrity.
+Battlefield
+No
+More than a week
+An aggressive tactician fueled by past defeat.
+Defeated by the hero once, the villain now returns with enhanced forces and a thirst for revenge, tracking the hero across space in a calculated vendetta.
+Enemy captivity
+Yes
+More than a week
+A shared prisoner who now commands enemy forces from the shadows.
+The hero and villain escaped captivity and went separate ways. The villain re-emerges as the unseen hand guiding enemy factions, leveraging intelligence gathered in prison.
+Battlefield
+No
+More than a year
+A relentless rival whose vendetta spans multiple campaigns.
+Their clashes with the hero have become legend. Each new battle escalates the stakes, with the villain obsessed with proving their supremacy.
+Battlefield
+Yes
+More than a week
+A disillusioned soldier now spearheading a rogue offensive.
+Bonded over missions, the hero and villain diverged when orders clashed with ethics. The villain now attacks supply routes, framing themselves as a revolutionary leader.
+Enemy captivity
+Yes
+Just met
+A mysterious former ally encountered in a brief but intense captivity.
+The hero recalls the villain only from strange conversations in a prison cell. Yet this figure now disrupts interstellar diplomacy, and their knowledge of the hero is unsettlingly deep.
+Enemy captivity
+No
+Just met
+A dangerous stranger from a shared cellblock, now a rogue factor.
+Though the hero hardly knew them, the villain has used their shared imprisonment as a propaganda tool, gaining followers and declaring the hero a traitor to their cause.
+Battlefield
+Yes
+Less than a week
+A short-lived ally turned relentless pursuer.
+Though briefly on the same side, the villain saw enough to view the hero as an obstacle to 'real progress.' They now lead advanced units to hunt the hero across sectors.
+Enemy captivity
+No
+More than a year
+An ideological extremist turned war profiteer.
+Imprisoned on opposing sides, the hero and villain clashed behind bars. Years later, the villain thrives on chaos, orchestrating conflict to feed their mercenary empire.
+Battlefield
+Yes
+More than a week
+A disillusioned soldier now spearheading a rogue offensive.
+Bonded over missions, the hero and villain diverged when orders clashed with ethics. The villain now attacks supply routes, framing themselves as a revolutionary leader.
+Enemy captivity
+Yes
+More than a year
+A former ally turned cyber-tyrant hunting the hero across star systems.
+Once imprisoned together, the hero and villain bonded, only to diverge ideologically over time. Now, the villain enforces oppressive order through AI, seeking to convert or eliminate the hero.
+Battlefield
+No
+Less than a week
+A brutal opponent introduced in a sudden ambush.
+After ambushing the hero’s team, the villain’s brutal efficiency revealed a deeper strategy at play. Their presence is a signal of worse to come.
+Enemy captivity
+Yes
+Less than a week
+An enigmatic cellmate with unclear motives and growing influence.
+Though briefly imprisoned together, the villain manipulated the hero to gain freedom. Now a rising force, they use that brief alliance to cast doubt on the hero's integrity.
+Battlefield
+No
+More than a week
+An aggressive tactician fueled by past defeat.
+Defeated by the hero once, the villain now returns with enhanced forces and a thirst for revenge, tracking the hero across space in a calculated vendetta.
+Enemy captivity
+Yes
+Just met
+A mysterious former ally encountered in a brief but intense captivity.
+The hero recalls the villain only from strange conversations in a prison cell. Yet this figure now disrupts interstellar diplomacy, and their knowledge of the hero is unsettlingly deep.
+Battlefield
+Yes
+More than a year
+A trusted commander who betrayed the hero in a devastating coup.
+Once close comrades in countless battles, the villain turned on the hero, leading a faction into rebellion. Their knowledge of the hero's tactics makes them a lethal adversary.
+Battlefield
+Yes
+Just met
+A new recruit turned traitor during their first mission.
+On their first operation with the hero, the villain betrayed the squad mid-mission, unleashing chaos. Now infamous, they manipulate battle data to frame the hero as the traitor.
+Enemy captivity
+No
+More than a week
+A manipulative prisoner exploiting the hero's past.
+While briefly imprisoned together, the villain learned secrets from the hero. Now they use those details in psychological warfare, undermining the hero across the galaxy.
+Enemy captivity
+Yes
+More than a week
+A shared prisoner who now commands enemy forces from the shadows.
+The hero and villain escaped captivity and went separate ways. The villain re-emerges as the unseen hand guiding enemy factions, leveraging intelligence gathered in prison.
+Battlefield
+No
+Just met
+A brutal opponent introduced in a sudden ambush.
+After ambushing the hero’s team, the villain’s brutal efficiency revealed a deeper strategy at play. Their presence is a signal of worse to come.
+Enemy captivity
+No
+Just met
+A dangerous stranger from a shared cellblock, now a rogue factor.
+Though the hero hardly knew them, the villain has used their shared imprisonment as a propaganda tool, gaining followers and declaring the hero a traitor to their cause.
+Enemy captivity
+Yes
+Less than a week
+An enigmatic cellmate with unclear motives and growing influence.
+Though briefly imprisoned together, the villain manipulated the hero to gain freedom. Now a rising force, they use that brief alliance to cast doubt on the hero's integrity.
+Battlefield
+Yes
+More than a week
+A disillusioned soldier now spearheading a rogue offensive.
+Bonded over missions, the hero and villain diverged when orders clashed with ethics. The villain now attacks supply routes, framing themselves as a revolutionary leader.
+Battlefield
+No
+More than a year
+A relentless rival whose vendetta spans multiple campaigns.
+Their clashes with the hero have become legend. Each new battle escalates the stakes, with the villain obsessed with proving their supremacy.
+Enemy captivity
+No
+Less than a week
+An opportunistic saboteur forged in shared captivity.
+The villain leveraged their short captivity with the hero to escape. Since then, they've become a notorious hacker destabilizing both sides of the war.
+Battlefield
+Yes
+More than a year
+A trusted commander who betrayed the hero in a devastating coup.
+Once close comrades in countless battles, the villain turned on the hero, leading a faction into rebellion. Their knowledge of the hero's tactics makes them a lethal adversary.
+Enemy captivity
+No
+Just met
+A manipulative strategist using prison rumors to distort truth.
+The hero and villain briefly crossed paths in a high-security holding cell. In that time, the villain planted false narratives that would later spread through underground channels. Though their time together was fleeting, the villain now claims they saw the hero break under interrogation — a lie that undermines the hero’s reputation and sows doubt among allies.
+Enemy captivity
+No
+Just met
+A radical ideologue turned martyr-maker.
+While imprisoned by a common enemy, the villain took a shine to the hero’s moral rigidity — not out of respect, but as a target. After their release, the villain begins broadcasting doctored footage of their cell time, portraying the hero as an agent of hypocrisy. Their mission: discredit the hero to rally followers to their violent cause.
+Enemy captivity
+No
+Just met
+An unknown agent who vanishes as quickly as they arrive.
+The hero barely had time to register the villain before a chaotic prison break. The villain vanished but left behind cryptic warnings and a trail of disrupted systems. Now, they strike from the shadows — a ghost from a shared cellblock who leverages that brief moment to unnerve and destabilize the hero’s every mission.

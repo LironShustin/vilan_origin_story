@@ -1,0 +1,80 @@
+Canteen
+Yes
+An ambitious server who secretly envies the hero’s adventures and gradually manipulates fellow workers against them.
+Returning victorious, the hero finds the canteen oddly hostile. Realizing their stories have been twisted maliciously by the trusted server, they must restore their reputation.
+Canteen
+Yes
+A bartender who subtly poisons minds as well as drinks, aiming to see the hero disgraced to advance their own secret goals.
+The hero discovers that the bartender’s drinks are laced with spells, distorting their perceptions and decision-making. A confrontation looms to uncover the bartender’s true motive.
+Canteen
+Yes
+The cheerful cleaner whose gossip hides darker magic, slowly eroding the hero’s reputation from the shadows.
+Gossip from the cleaner turns the canteen patrons wary of the hero. Investigating, the hero uncovers dark rituals beneath the cheerful facade.
+Canteen
+Yes
+The cook whose friendly meals mask potent enchantments meant to extract secrets and sabotage the hero's quests.
+After confiding battle strategies during a meal, the hero faces relentless sabotage and must trace it back to the cook’s enchanted culinary tricks.
+Canteen
+Yes
+The manager whose strict demeanor is a facade for deep envy, exploiting their position to thwart the hero discreetly.
+Unexpectedly banned from the canteen after returning from an expedition, the hero uncovers the manager’s bitter plot, forcing a dramatic showdown for justice.
+Canteen
+No
+A charming merchant who frequents the canteen, using enchanted wares to subtly corrupt the patrons and isolate the hero.
+The hero notices patrons acting strangely distant, only to uncover the merchant’s enchanted trinkets causing suspicion and betrayal among friends.
+Canteen
+No
+An alluring singer whose nightly performances weave distrust against the hero through subtle magical lyrics.
+When the singer’s haunting songs turn the hero’s closest allies against them, they must confront the powerful musical enchantments to reclaim trust.
+Canteen
+No
+A mysterious storyteller who gradually embeds sinister suggestions into their tales, influencing opinions against the hero.
+Realizing their reputation is under attack through sinister storytelling, the hero must publicly challenge the storyteller's dark influence.
+Canteen
+No
+A gambler who frequents the canteen, exploiting friendships and using magic-enhanced luck to undermine the hero’s endeavors.
+Losing repeatedly in rigged bets, the hero discovers the gambler's magically-enhanced deceit. A risky counter-gamble becomes the hero's only path to redemption.
+Canteen
+No
+A wandering fortune-teller whose prophecies begin shaping the canteen’s attitudes, creating paranoia and suspicion around the hero.
+Disturbing prophecies spread fear and doubt, isolating the hero until they confront the fortune-teller, revealing the dangerous truths behind her words.
+Canteen
+Yes
+A vigilant doorman whose obsessive tracking of patrons turns dangerous when he starts selling information about the hero's movements.
+The hero is suddenly targeted by enemies aware of their every move, tracing the betrayal back to the doorman’s obsessive surveillance.
+Canteen
+Yes
+A charming waitress whose feigned friendliness masks an ambition to replace the hero as the community’s favored adventurer.
+When the hero’s latest quest successes are mysteriously overshadowed by the waitress's rising fame, they must uncover her covert sabotage.
+Canteen
+Yes
+A somber dishwasher who secretly practices dark magic, quietly undermining the hero's efforts from behind the scenes.
+Unusual failures plague the hero, revealing that the dishwasher’s dark enchantments have been slowly draining their luck and strength.
+Canteen
+Yes
+The jovial entertainer whose magic tricks and humorous distractions mask sinister attempts to discredit the hero.
+After a disastrous performance damages the hero’s reputation, they must confront the entertainer’s secret vendetta hidden behind smiles.
+Canteen
+Yes
+A meticulous accountant who manipulates records to subtly frame the hero for theft, causing widespread mistrust.
+Accused wrongly of embezzlement, the hero must unravel the accountant’s carefully woven deception to restore their name.
+Canteen
+No
+A visiting herbalist whose potent remedies subtly poison the community’s opinion, turning friends against the hero.
+As the community becomes increasingly suspicious and hostile, the hero discovers the herbalist’s sinister concoctions are to blame.
+Canteen
+No
+An enigmatic writer who frequents the canteen, crafting persuasive stories that portray the hero in a villainous light.
+When fictional scandals begin ruining the hero's credibility, they must confront the cunning author who manipulates truth through fiction.
+Canteen
+No
+A captivating dancer whose performances mesmerize patrons, secretly embedding hypnotic suggestions against the hero.
+Patrons acting under hypnotic suggestions begin to sabotage the hero’s missions, forcing a dramatic confrontation with the dancer’s hidden magic.
+Canteen
+No
+A seemingly harmless elderly patron whose strategic whispers ignite conflict and suspicion wherever the hero goes.
+Conflicts erupt among allies as whispers sow doubt and mistrust, compelling the hero to unmask the elderly patron’s cunning manipulations.
+Canteen
+No
+A notorious mercenary using the canteen as a base to discreetly recruit allies and sabotage the hero’s ventures.
+Facing relentless setbacks orchestrated by the mercenary’s stealthy sabotage, the hero must uncover their covert network and dismantle it.
