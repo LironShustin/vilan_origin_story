@@ -106,7 +106,7 @@ typedef struct {
 	char villain_target[300];
 	char plot_line[1000];
 	villainTrait traits[3]; // villain will always have 3 traits
-}scifi_villain1;
+}Scifi_villain1;
 
 typedef struct {
 	char name[50];
@@ -117,7 +117,7 @@ typedef struct {
 	char villain_target[300];
 	char plot_line[1000];
 	villainTrait traits[3]; // villain will always have 3 traits
-}scifi_villain2;
+}Scifi_villain2;
 
 typedef struct {
 	char name[50];
@@ -129,7 +129,7 @@ typedef struct {
 	char villain_target[300];
 	char plot_line[1000];
 	villainTrait traits[3]; // villain will always have 3 traits
-}thriller_villain1;
+}Thriller_villain1;
 
 typedef struct {
 	char name[50];
@@ -141,7 +141,7 @@ typedef struct {
 	char villain_target[300];
 	char plot_line[1000];
 	villainTrait traits[3]; // villain will always have 3 traits
-}thriller_villain2;
+}Thriller_villain2;
 
 typedef struct {
 	char name[50];
@@ -152,7 +152,7 @@ typedef struct {
 	char villain_target[300];
 	char plot_line[1000];
 	villainTrait traits[3]; // villain will always have 3 traits
-}thriller_villain3;
+}Thriller_villain3;
 
 #endif 
 #pragma once
