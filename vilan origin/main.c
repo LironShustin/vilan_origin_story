@@ -28,9 +28,9 @@ int main() {
     int genre_size = sizeof(genre);
     pull_line_from_file(answers_file, pull_line, genre, genre_size); // for genre pull line is 3 
     if (realistic) {// drama and comedy have the same questions
-        how_long_you_met(answers_file);
+        how_long_you_met(answers_file, genre);
         clear_console();
-        first_meeting_place(answers_file);
+        first_meeting_place(answers_file, genre);
         if (strcmp(genre, "Drama") == 0) {
             n = 2; //since theres 2 questions after genre
             compare_structs("drama_database.txt", n, answers_file, match_lines, &match_count);

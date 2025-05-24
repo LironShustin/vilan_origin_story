@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Structs&Enums.h"
+#include <windows.h>
 
 void generate_random_traits(villainTrait traits[3]) {
     int used[TRAIT_COUNT] = { 0 };
@@ -21,4 +22,3 @@ void clear_console() {
     system("clear");
 #endif
 }
-

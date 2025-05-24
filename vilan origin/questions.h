@@ -8,15 +8,15 @@
 
 void is_realistic(BOOL* realistic, char* story_file_name);
 void genre(BOOL realistic, char* story_file_name);
-void how_long_you_met(char* story_file_name);
-void first_meeting_place(char* story_file_name);
-void sci_fi_or_fantasy_meeting_place(char* story_file_name);
+void how_long_you_met(char* story_file_name, char* genre);
+void first_meeting_place(char* story_file_name, char* genre);
+void sci_fi_or_fantasy_meeting_place(char* story_file_name, char* genre);
 void thriller_meeting_status(char* story_file_name);
-void hero_villain_same_side(char* story_file_name);
-void how_long_since_meeting(char* story_file_name);
+void hero_villain_same_side(char* story_file_name, char* genre);
+void how_long_since_meeting(char* story_file_name, char* genre);
 void thriller_meeting_place(char* story_file_name);
 void thriller_hero_duty(char* story_file_name);
-void was_one_crew_member(char* story_file_name);
+void was_one_crew_member(char* story_file_name, char* genre);
 
 #endif
 #pragma once
