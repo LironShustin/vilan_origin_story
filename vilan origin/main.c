@@ -37,20 +37,14 @@ int main() {
             n = 2; //since theres 2 questions after genre
             compare_structs("drama_database.txt", n, answers_file, match_lines, &match_count);
             r = (rand() % match_count);
-<<<<<<< HEAD
-=======
             analyzing_encounter_parameter();
->>>>>>> liron4
             write_lines_to_struct("drama_database.txt", match_lines[r], n, &test);
         }
         else if (strcmp(genre, "Comedy") == 0) {
             n = 2; //since theres 2 questions after genre
             compare_structs("comedy_database.txt", n, answers_file, match_lines, &match_count);
             r = (rand() % match_count);
-<<<<<<< HEAD
-=======
             analyzing_encounter_parameter();
->>>>>>> liron4
             write_lines_to_struct("comedy_database.txt", match_lines[r], n, &test);
         }
     }
