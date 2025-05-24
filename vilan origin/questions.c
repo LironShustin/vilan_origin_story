@@ -27,6 +27,7 @@ void is_realistic(BOOL* realistic, char* story_file_name) {
         }
     }
 }
+
 void genre(BOOL realistic, char* story_file_name) {
     int choice = 0;
     char genre[30];
@@ -145,6 +146,7 @@ void sci_fi_or_fantasy_meeting_place(char* story_file_name) {
     }
     append_to_next_empty_line(story_file_name, place);
 }
+
 void hero_villain_same_side(char* story_file_name) {
     char answer[100] = { 0 };
     int choice = 0;
@@ -195,7 +197,6 @@ void how_long_since_meeting(char* story_file_name) {
     }
     append_to_next_empty_line(story_file_name, answer);
 }
-
 
 void thriller_meeting_status(char* story_file_name) {
     char answer[20] = { 0 };
@@ -270,5 +271,26 @@ void was_one_crew_member(char* story_file_name) {
     }
     else {
         append_to_next_empty_line(story_file_name, "Crew member: No");
+    }
+}
+
+void are_you_happy_with_your_result() {
+    char answer = '0';
+    while (answer == '0') {
+        print_colored("Are you happy with the vilain/antagonist generated?\n", YELLOW);
+        print_colored("[1] Yes\n [2] No", CYAN);
+        scanf_s(" %c", &answer, 1);
+        if (answer == 'y' || answer == 'Y' || answer == '1') {
+            print_colored("Great! I'm happy to hear, goodbye!", GREEN);
+        }
+        else if (answer == 'n' || answer == 'N' || answer == '2') {
+            print_colored("I'm sorry to hear that", ORANGE);
+            print_colored("Do you want to generate a new one insted", YELLOW);
+            //NEED TO CONTINUE
+        }
+        else {
+            answer = '0';
+            print_colored("Invalid Input!, try again", RED);
+        }
     }
 }
