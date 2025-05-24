@@ -11,17 +11,12 @@ void is_realistic(BOOL* realistic, char* story_file_name) {
     char answer[10]; // buffer for input
     answer[0] = '0';
     while (answer[0] == '0') {
-<<<<<<< HEAD
-        print_colored("Is your story realistic? (y/n)\n", YELLOW);
-=======
         print_colored("Is your story realistic or fictional?\n", YELLOW);
         print_colored("[1] Realistic\n", BLUE);
         print_colored("[2] Fictional\n", GREEN);
->>>>>>> liron3
         scanf_s(" %9s", answer, (unsigned)_countof(answer));
         int c;
         while ((c = getchar()) != '\n' && c != EOF) {} // clear input buffer
-
         if ((answer[0] == '1') && answer[1] == '\0') {
             *realistic = True;
             append_to_next_empty_line(story_file_name, "Realistic");
@@ -42,7 +37,7 @@ void genre(BOOL realistic, char* story_file_name) {
     char genre[30];
     if (realistic) {
         while (choice != '1' && choice != '2') {
-            print_colored("\nWhat genre is your story?\n", ORANGE);
+            print_colored("\nWhat genre is your story?\n", YELLOW);
             print_colored("[1] Drama\n", PINK);
             print_colored("[2] Comedy\n", CYAN);
             scanf_s(" %c", &choice, 1);
@@ -60,10 +55,10 @@ void genre(BOOL realistic, char* story_file_name) {
     }
     else {
         while (choice != '1' && choice != '2' && choice != '3') {
-            print_colored("\nWhat genre is your story?\n", ORANGE);
-            print_colored("[1] Thriller\n", RED); 
+            print_colored("\nWhat genre is your story?\n", YELLOW);
+            print_colored("[1] Thriller\n", ORANGE); 
             print_colored("[2] Fantasy\n", PURPLE); 
-            print_colored("[3] Science Fiction\n", GREEN);
+            print_colored("[3] Science Fiction\n", BLUE);
             scanf_s(" %c", &choice, 1);
             if (choice == '1') {
                 strcpy_s(genre, sizeof(genre), "Thriller");
@@ -159,15 +154,6 @@ void first_meeting_place(char* story_file_name, char* genre) {
 
 
 void sci_fi_or_fantasy_meeting_place(char* story_file_name, char* genre) {
-	if (strcmp(genre, "Fantasy") == 0) {
-
-	}
-	else if (strcmp(genre, "Science fiction") == 0) {
-
-	}
-    else if (strcmp(genre, "Science fiction") == 0) {
-
-    }
     char place[100] = { 0 };
     char choice = 0;
     while (choice != '1' && choice != '2' && choice != '3') {
@@ -203,11 +189,7 @@ void sci_fi_or_fantasy_meeting_place(char* story_file_name, char* genre) {
     append_to_next_empty_line(story_file_name, place);
 }
 
-<<<<<<< HEAD
-void hero_villain_same_side(char* story_file_name) {
-=======
 void hero_villain_same_side(char* story_file_name, char* genre) {
->>>>>>> liron3
     char answer[100] = { 0 };
     char choice = 0;
     while (choice != '1' && choice != '2') {
@@ -227,13 +209,8 @@ void hero_villain_same_side(char* story_file_name, char* genre) {
             choice = 0;
         }
     }
-<<<<<<< HEAD
     if (choice == 1) {
         strcpy_s(answer, sizeof(answer), "Yes");
-=======
-    if (choice == '1') {
-        strcpy_s(answer, sizeof(answer), "Same side: Yes");
->>>>>>> liron3
     }
     else {
         strcpy_s(answer, sizeof(answer), "No");
@@ -376,13 +353,8 @@ void was_one_crew_member(char* story_file_name, char* genre) {
             choice = 0;
         }
     }
-<<<<<<< HEAD
     if (choice == 1) {
         append_to_next_empty_line(story_file_name, "Yes");
-=======
-    if (choice == '1') {
-        append_to_next_empty_line(story_file_name, "Crew member: Yes");
->>>>>>> liron3
     }
     else {
         append_to_next_empty_line(story_file_name, "No");
@@ -391,7 +363,6 @@ void was_one_crew_member(char* story_file_name, char* genre) {
     Sleep(3000);
 }
 
-<<<<<<< HEAD
 void are_you_happy_with_your_result() {
     char answer = '0';
     while (answer == '0') {
@@ -412,5 +383,3 @@ void are_you_happy_with_your_result() {
         }
     }
 }
-=======
->>>>>>> liron3

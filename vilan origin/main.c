@@ -12,6 +12,8 @@
 
 int main() {
     srand((unsigned int)time(NULL)); // Seed the RNG
+    Drama_villain drama_villain = { 0 };
+    Comedy_villain comedy_villain = { 0 };
     Output_Vilain_Struct test = { 0 };
     char answers_file[260];
     BOOL realistic = True;
@@ -35,13 +37,13 @@ int main() {
             n = 2; //since theres 2 questions after genre
             compare_structs("drama_database.txt", n, answers_file, match_lines, &match_count);
             r = (rand() % match_count);
-            write_lines_to_struct("drama_database.txt", match_lines[r], n, &test);
+            write_lines_to_struct("drama_database.txt", match_lines[r], n, &drama_villain);
         }
         else if (strcmp(genre, "Comedy") == 0) {
             n = 2; //since theres 2 questions after genre
             compare_structs("comedy_database.txt", n, answers_file, match_lines, &match_count);
             r = (rand() % match_count);
-            write_lines_to_struct("comedy_database.txt", match_lines[r], n, &test);
+            write_lines_to_struct("comedy_database.txt", match_lines[r], n, &comedy_villain);
         }
     }
     else {// unrealistic
@@ -63,14 +65,11 @@ int main() {
                     write_lines_to_struct("Thriller_have_met_database.txt", match_lines[r], n, &test);
                 }
                 else if (strcmp(meeting_answer, "Canteen") == 0) {
-                    was_one_crew_member(answers_file);
+                    was_one_crew_member(answers_file, genre);
                     n = 3; //since theres 3 questions after genre
                     compare_structs("Thriller_have_met_database.txt", n, answers_file, match_lines, &match_count);
                     r = (rand() % match_count);
                     write_lines_to_struct("Thriller_have_met_database.txt", match_lines[r], n, &test);
-                }
-                else {
-                    printf("error");
                 }
             }
             else if (strcmp(status_answer, "No") == 0) {
@@ -83,19 +82,19 @@ int main() {
         }
         else if (strcmp(genre, "Science fiction") == 0) {
             char meeting_place[30] = { 0 };
-            sci_fi_or_fantasy_meeting_place(answers_file);
+            sci_fi_or_fantasy_meeting_place(answers_file,genre);
             pull_line = 4; // meeting place is written in line 4
             pull_line_from_file(answers_file, pull_line, meeting_place, sizeof(meeting_place));
             if (strcmp(meeting_place, "Enemy captivity") == 0 || strcmp(meeting_place, "Battlefield") == 0) {
-                hero_villain_same_side(answers_file);
-                how_long_since_meeting(answers_file);
+                hero_villain_same_side(answers_file,genre);
+                how_long_since_meeting(answers_file,genre);
                 n = 3; //since theres 3 questions after genre
                 compare_structs("Science_fiction_captivity_battlefield_database.txt", n, answers_file, match_lines, &match_count);
                 r = (rand() % match_count);
                 write_lines_to_struct("Science_fiction_captivity_battlefield_database.txt", match_lines[r], n, &test);
             }
             else if (strcmp(meeting_place, "Canteen") == 0) {
-                was_one_crew_member(answers_file);
+                was_one_crew_member(answers_file,genre);
                 n = 2; //since theres 2 questions after genre
                 compare_structs("Science_fiction_canteen_databaset.txt", n, answers_file, match_lines, &match_count);
                 r = (rand() % match_count);
@@ -104,19 +103,19 @@ int main() {
         }
         else if (strcmp(genre, "Fantasy") == 0) {
             char meeting_place[30] = { 0 };
-            sci_fi_or_fantasy_meeting_place(answers_file);
+            sci_fi_or_fantasy_meeting_place(answers_file, genre);
             pull_line = 4; // meeting place is written in line 4
             pull_line_from_file(answers_file, pull_line, meeting_place, sizeof(meeting_place));
             if (strcmp(meeting_place, "Enemy captivity") == 0 || strcmp(meeting_place, "Battlefield") == 0) {
-                hero_villain_same_side(answers_file);
-                how_long_since_meeting(answers_file);
+                hero_villain_same_side(answers_file, genre);
+                how_long_since_meeting(answers_file, genre);
                 n = 3; //since theres 3 questions after genre
                 compare_structs("Fantasy_captivity_battlefield_database.txt", n, answers_file, match_lines, &match_count);
                 r = (rand() % match_count);
                 write_lines_to_struct("Fantasy_captivity_battlefield_database.txt", match_lines[r], n, &test);
             }
             else if (strcmp(meeting_place, "Canteen") == 0) {
-                was_one_crew_member(answers_file);
+                was_one_crew_member(answers_file, genre);
                 n = 2; //since theres 2 questions after genre
                 compare_structs("Fantasy_Canteen_database.txt", n, answers_file, match_lines, &match_count);
                 r = (rand() % match_count);
