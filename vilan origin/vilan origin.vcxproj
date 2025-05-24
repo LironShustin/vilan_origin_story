@@ -139,6 +139,7 @@
     <Text Include="drama_database.txt" />
     <Text Include="Fantasy_Canteen_database.txt" />
     <Text Include="Fantasy_captivity_battlefield_database.txt" />
+    <Text Include="names.txt" />
     <Text Include="Science_fiction_canteen_databaset.txt" />
     <Text Include="Science_fiction_captivity_battlefield_database.txt" />
     <Text Include="Thriller_have_met_database.txt" />

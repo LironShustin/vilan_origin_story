@@ -62,6 +62,7 @@ int main() {
                     n = 3; //since theres 3 questions after genre
                     compare_structs("Thriller_have_met_database.txt", n, answers_file, match_lines, &match_count);
                     r = (rand() % match_count);
+					//add analyzing encounter parameter here
                     write_lines_to_struct("Thriller_have_met_database.txt", match_lines[r], n, &test);
                 }
                 else if (strcmp(meeting_answer, "Canteen") == 0) {
