@@ -41,6 +41,8 @@ void genre(BOOL realistic, char* story_file_name) {
             print_colored("[1] Drama\n", PINK);
             print_colored("[2] Comedy\n", CYAN);
             scanf_s(" %c", &choice, 1);
+            int ch;
+            while ((ch = getchar()) != '\n' && ch != EOF) {}
             if (choice == '1') {
                 strcpy_s(genre, sizeof(genre), "Drama");
             }
@@ -48,7 +50,7 @@ void genre(BOOL realistic, char* story_file_name) {
                 strcpy_s(genre, sizeof(genre), "Comedy");
             }
             else {
-                print_colored("invalid input try again...", RED);
+                print_colored("invalid input try again...\n", RED);
                 choice = 0; // Reset choice to allow for re-entry
             }
         }
@@ -60,6 +62,8 @@ void genre(BOOL realistic, char* story_file_name) {
             print_colored("[2] Fantasy\n", PURPLE); 
             print_colored("[3] Science Fiction\n", BLUE);
             scanf_s(" %c", &choice, 1);
+            int ch;
+            while ((ch = getchar()) != '\n' && ch != EOF) {}
             if (choice == '1') {
                 strcpy_s(genre, sizeof(genre), "Thriller");
             }
@@ -70,7 +74,7 @@ void genre(BOOL realistic, char* story_file_name) {
                 strcpy_s(genre, sizeof(genre), "Science fiction");
             }
             else {
-                print_colored("invalid input try again...", RED);
+                print_colored("invalid input try again...\n", RED);
                 choice = 0; // Reset choice to allow for re-entry
             }
         }
@@ -94,6 +98,8 @@ void how_long_you_met(char* story_file_name, char* genre) {
             print_colored("[3] More than a year\n", CYAN);
         }
         scanf_s(" %c", &choice, 1);
+        int ch;
+        while ((ch = getchar()) != '\n' && ch != EOF) {}
         if (choice != '1' && choice != '2' && choice != '3') {
             print_colored("Invalid input, try again...\n", RED);
             choice = 0;
@@ -129,6 +135,8 @@ void first_meeting_place(char* story_file_name, char* genre) {
             print_colored("[3] Work place\n", CYAN);
         }
         scanf_s(" %c", &choice, 1);
+        int ch;
+        while ((ch = getchar()) != '\n' && ch != EOF) {}
         if (choice != '1' && choice != '2' && choice != '3') {
             print_colored("Invalid input, try again...\n", RED);
             choice = 0;
@@ -164,6 +172,8 @@ void sci_fi_or_fantasy_meeting_place(char* story_file_name, char* genre) {
             print_colored("[3] Canteen\n", BLUE);
         }
         scanf_s(" %c", &choice, 1);
+        int ch;
+        while ((ch = getchar()) != '\n' && ch != EOF) {}
         clear_console();
         if (choice != '1' && choice != '2' && choice != '3') {
             print_colored("Invalid input, try again...\n", RED);
@@ -198,6 +208,8 @@ void hero_villain_same_side(char* story_file_name, char* genre) {
             print_colored("[2] No\n", BLUE);
         }
         scanf_s(" %c", &choice, 1);
+        int ch;
+        while ((ch = getchar()) != '\n' && ch != EOF) {}
         clear_console();
         if (choice != '1' && choice != '2') {
             print_colored("Invalid input, try again...\n", RED);
@@ -231,6 +243,8 @@ void how_long_since_meeting(char* story_file_name, char* genre) {
             print_colored("[4] More than a year\n", BLUE);
         }
         scanf_s(" %c", &choice, 1);
+        int ch;
+        while ((ch = getchar()) != '\n' && ch != EOF) {}
         if (choice != '1' && choice != '2' && choice != '3' && choice != '4') {
             print_colored("Invalid input, try again...\n", RED);
             choice = 0;
@@ -261,6 +275,8 @@ void thriller_meeting_status(char* story_file_name) {
         print_colored("[1] Yes\n", ORANGE);
         print_colored("[2] No\n", ORANGE);
         scanf_s(" %c", &choice, 1);
+        int ch;
+        while ((ch = getchar()) != '\n' && ch != EOF) {}
         clear_console();
         if (choice != '1' && choice != '2') {
             print_colored("Invalid input, try again...\n", RED);
@@ -283,6 +299,8 @@ void thriller_meeting_place(char* story_file_name) {
         print_colored("[1] Canteen\n", ORANGE);
         print_colored("[2] Investigation Office\n", ORANGE);
         scanf_s(" %c", &choice, 1);
+        int ch;
+        while ((ch = getchar()) != '\n' && ch != EOF) {}
         clear_console();
         if (choice != '1' && choice != '2') {
             print_colored("Invalid input, try again...\n", RED);
@@ -305,7 +323,8 @@ void thriller_hero_duty(char* story_file_name) {
         print_colored("[2] Murderer\n", ORANGE);
         print_colored("[3] Victim\n", ORANGE);
         scanf_s(" %c", &choice, 1);
-        clear_console();
+        int ch;
+        while ((ch = getchar()) != '\n' && ch != EOF) {}
         if (choice != '1' && choice != '2' && choice != '3') {
             print_colored("Invalid input, try again...\n", RED);
             choice = 0;
@@ -337,6 +356,8 @@ void was_one_crew_member(char* story_file_name, char* genre) {
     char choice = 0;
     while (choice != '1' && choice != '2') {
         scanf_s(" %c", &choice, 1);
+        int ch;
+        while ((ch = getchar()) != '\n' && ch != EOF) {}
         if (choice != '1' && choice != '2') {
             print_colored("Invalid input, try again...\n", RED);
             choice = 0;
