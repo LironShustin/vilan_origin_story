@@ -83,7 +83,7 @@ typedef struct {
 	char villain_target[300];
 	char plot_line[1000];
 	villainTrait traits[3]; // villain will always have 3 traits
-}fantasy_villain1;
+}Fantasy_villain1;
 
 typedef struct {
 	char name[50];
@@ -94,7 +94,7 @@ typedef struct {
 	char villain_target[300];
 	char plot_line[1000];
 	villainTrait traits[3]; // villain will always have 3 traits
-}fantasy_villain2;
+}Fantasy_villain2;
 
 typedef struct {
 	char name[50];
