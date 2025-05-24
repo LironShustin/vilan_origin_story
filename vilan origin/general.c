@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Structs&Enums.h"
 #include <windows.h>
+#include "Structs&Enums.h"
+#include "design.h"
 
 void generate_random_traits(villainTrait traits[3]) {
     int used[TRAIT_COUNT] = { 0 };
@@ -21,4 +22,9 @@ void clear_console() {
 #else
     system("clear");
 #endif
+}
+
+void analyzing_encounter_parameter(void) {
+    print_colored("Analyzing encounter parameter...\nplease wait...\n", ORANGE);
+    Sleep(3000);
 }

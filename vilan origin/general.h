@@ -5,6 +5,7 @@
 
 void generate_random_traits(villainTrait traits[3]);
 void clear_console();
+void analyzing_encounter_parameter(void);
 
 
 #endif

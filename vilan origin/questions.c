@@ -148,8 +148,6 @@ void first_meeting_place(char* story_file_name, char* genre) {
         break;
     }
     append_to_next_empty_line(story_file_name, meeting_place);
-    print_colored("Analyzing encounter parameter...\nplease wait...\n", YELLOW);
-    Sleep(3000);
 }
 
 
@@ -257,8 +255,6 @@ void how_long_since_meeting(char* story_file_name, char* genre) {
         break;
     }
     append_to_next_empty_line(story_file_name, answer);
-    print_colored("Analyzing encounter parameter...\nplease wait...\n", YELLOW);
-    Sleep(3000);
 }
 
 void thriller_meeting_status(char* story_file_name) {
@@ -325,8 +321,6 @@ void thriller_hero_duty(char* story_file_name) {
     case '2': append_to_next_empty_line(story_file_name, "Murderer"); break;
     case '3': append_to_next_empty_line(story_file_name, "Victim"); break;
     }
-    print_colored("Analyzing encounter parameter...\nplease wait...\n", YELLOW);
-    Sleep(3000);
 }
 
 
@@ -360,8 +354,6 @@ void was_one_crew_member(char* story_file_name, char* genre) {
     else {
         append_to_next_empty_line(story_file_name, "No");
     }
-    print_colored("Analyzing encounter parameter...\nplease wait...\n", YELLOW);
-    Sleep(3000);
 }
 
 void are_you_happy_with_your_result() {
