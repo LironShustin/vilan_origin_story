@@ -29,5 +29,6 @@
     <Text Include="Thriller_havent_met_database.txt" />
     <Text Include="Fantasy_Canteen_database.txt" />
     <Text Include="Science_fiction_canteen_databaset.txt" />
+    <Text Include="names.txt" />
   </ItemGroup>
 </Project>

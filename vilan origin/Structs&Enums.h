@@ -154,6 +154,7 @@ typedef enum {
 //	villainTrait traits[3]; // villain will always have 3 traits
 //}Thriller_villain3;
 
+<<<<<<< HEAD
 typedef enum {
 	DRAMA,
 	COMEDY,

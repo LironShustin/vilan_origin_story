@@ -83,7 +83,7 @@ void how_long_you_met(char* story_file_name, char* genre) {
     char when_met[100] = { 0 };
     char choice = 0;
     while (choice != '1' && choice != '2' && choice != '3') {
-        print_colored("\nAt the start of the story how long have your hero and vilain known each other?\n", ORANGE);
+        print_colored("\nAt the start of the story how long have your hero and vilain known each other?\n", YELLOW);
         if (strcmp(genre, "Drama") == 0) {
             print_colored("[1] Just met\n", PINK);
             print_colored("[2] Less than a year\n", PINK);
@@ -119,7 +119,7 @@ void first_meeting_place(char* story_file_name, char* genre) {
     char meeting_place[100] = { 0 };
     char choice = 0;
     while (choice != '1' && choice != '2' && choice != '3') {
-        print_colored("\nWhere did the hero and villain first meet?\n", ORANGE);
+        print_colored("\nWhere did the hero and villain first meet?\n", YELLOW);
         if (strcmp(genre, "Drama") == 0) {
             print_colored("[1] Family\n", PINK);
             print_colored("[2] School\n", PINK);
@@ -148,8 +148,6 @@ void first_meeting_place(char* story_file_name, char* genre) {
         break;
     }
     append_to_next_empty_line(story_file_name, meeting_place);
-    print_colored("Analyzing encounter parameter...\nplease wait...\n", YELLOW);
-    Sleep(3000);
 }
 
 
@@ -157,7 +155,7 @@ void sci_fi_or_fantasy_meeting_place(char* story_file_name, char* genre) {
     char place[100] = { 0 };
     char choice = 0;
     while (choice != '1' && choice != '2' && choice != '3') {
-        print_colored("\nWhere did the hero and villain meet first?\n", ORANGE);
+        print_colored("\nWhere did the hero and villain meet first?\n", YELLOW);
         if (strcmp(genre, "Fantasy") == 0) {
             print_colored("[1] Enemy captivity\n", PURPLE);
             print_colored("[2] Battlefield\n", PURPLE);
@@ -193,7 +191,7 @@ void hero_villain_same_side(char* story_file_name, char* genre) {
     char answer[100] = { 0 };
     char choice = 0;
     while (choice != '1' && choice != '2') {
-        print_colored("\nWere the hero and the villain on the same side?\n", ORANGE);
+        print_colored("\nWere the hero and the villain on the same side?\n", YELLOW);
         if (strcmp(genre, "Fantasy") == 0) {
             print_colored("[1] Yes\n", PURPLE);
             print_colored("[2] No\n", PURPLE);
@@ -223,7 +221,7 @@ void how_long_since_meeting(char* story_file_name, char* genre) {
     char answer[100] = { 0 };
     char choice = 0;
     while (choice != '1' && choice != '2' && choice != '3' && choice != '4') {
-        print_colored("\nHow long has it been since the hero and villain first met?\n", ORANGE);
+        print_colored("\nHow long has it been since the hero and villain first met?\n", YELLOW);
         if (strcmp(genre, "Fantasy") == 0) {
             print_colored("[1] Just met\n", PURPLE);
             print_colored("[2] Less than a week\n", PURPLE);
@@ -237,7 +235,6 @@ void how_long_since_meeting(char* story_file_name, char* genre) {
             print_colored("[4] More than a year\n", BLUE);
         }
         scanf_s(" %c", &choice, 1);
-        clear_console();
         if (choice != '1' && choice != '2' && choice != '3' && choice != '4') {
             print_colored("Invalid input, try again...\n", RED);
             choice = 0;
@@ -258,14 +255,12 @@ void how_long_since_meeting(char* story_file_name, char* genre) {
         break;
     }
     append_to_next_empty_line(story_file_name, answer);
-    print_colored("Analyzing encounter parameter...\nplease wait...\n", YELLOW);
-    Sleep(3000);
 }
 
 void thriller_meeting_status(char* story_file_name) {
     char answer[20] = { 0 };
     char choice = 0;
-    while (choice != 'y' && choice != 'Y' && choice != 'n' && choice != 'N') {
+    while (choice != '1' && choice != '2') {
         print_colored("\nDid the hero and villain already know each other at the begining of the story?\n", YELLOW);
         print_colored("[1] Yes\n", ORANGE);
         print_colored("[2] No\n", ORANGE);
@@ -326,27 +321,27 @@ void thriller_hero_duty(char* story_file_name) {
     case '2': append_to_next_empty_line(story_file_name, "Murderer"); break;
     case '3': append_to_next_empty_line(story_file_name, "Victim"); break;
     }
-    print_colored("Analyzing encounter parameter...\nplease wait...\n", YELLOW);
-    Sleep(3000);
 }
 
 
 void was_one_crew_member(char* story_file_name, char* genre) {
-
 	if (strcmp(genre, "Fantasy") == 0) {
-
+		print_colored("\nWas the villain a staff member in the canteen?\n", YELLOW);
+		print_colored("[1] Yes\n", PURPLE);
+		print_colored("[2] No\n", PURPLE);
 	}
 	else if (strcmp(genre, "Science fiction") == 0) {
-
+        print_colored("\nWas the villain a staff member in the canteen?\n", YELLOW);
+		print_colored("[1] Yes\n", BLUE);
+		print_colored("[2] No\n", BLUE);
 	}
 	else if (strcmp(genre, "Thriller") == 0) {
-
+		print_colored("\nWas the villain a staff member in the canteen?\n", YELLOW);
+		print_colored("[1] Yes\n", ORANGE);
+		print_colored("[2] No\n", ORANGE);
 	}
     char choice = 0;
-    while (choice != 'y' && choice != 'Y' && choice != 'n' && choice != 'N') {
-        print_colored("\nWas the villain a staff member in the canteen?\n", ORANGE);
-        print_colored("[1] Yes\n", YELLOW);
-        print_colored("[2] No\n", YELLOW);
+    while (choice != '1' && choice != '2') {
         scanf_s(" %c", &choice, 1);
         if (choice != '1' && choice != '2') {
             print_colored("Invalid input, try again...\n", RED);
@@ -359,8 +354,6 @@ void was_one_crew_member(char* story_file_name, char* genre) {
     else {
         append_to_next_empty_line(story_file_name, "No");
     }
-    print_colored("Analyzing encounter parameter...\nplease wait...\n", YELLOW);
-    Sleep(3000);
 }
 
 void are_you_happy_with_your_result() {
