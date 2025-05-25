@@ -12,9 +12,10 @@
 
 int main() {
     srand((unsigned int)time(NULL)); // Seed the RNG
-    Drama_villain drama_villain = { 0 };
-    //Comedy_villain comedy_villain = { 0 };
-    Output_Vilain_Struct test = { 0 };
+    AllStructs* allstructs = allocate_all_structs();
+    if (!allstructs) {
+        // handle allocation failure
+    }
     char answers_file[260];
     BOOL realistic = True;
     int match_lines[60] = { 0 };
@@ -39,15 +40,16 @@ int main() {
             r = (rand() % match_count);
             clear_console();
             analyzing_encounter_parameter();
-            write_lines_to_struct("drama_database.txt", match_lines[r], n, &test);
-            printDramaVillain(&test, &drama_villain, &answers_file); // answers_file is a string that containes the story name
+            write_lines_to_struct("drama_database.txt", match_lines[r], n, allstructs->output);
+            print_Drama_Villain(allstructs->output, allstructs->drama_villain, answers_file); // answers_file is a string that containes the story name
         }
         else if (strcmp(genre, "Comedy") == 0) {
             n = 2; //since theres 2 questions after genre
             compare_structs("comedy_database.txt", n, answers_file, match_lines, &match_count);
             r = (rand() % match_count);
             analyzing_encounter_parameter();
-            write_lines_to_struct("comedy_database.txt", match_lines[r], n, &test);
+            write_lines_to_struct("comedy_database.txt", match_lines[r], n, allstructs->output);
+            print_Comedy_Villain(allstructs->output, allstructs->comedy_villain, answers_file);
         }
     }
     else {// unrealistic
@@ -67,7 +69,8 @@ int main() {
                     compare_structs("Thriller_have_met_database.txt", n, answers_file, match_lines, &match_count);
                     r = (rand() % match_count);
                     analyzing_encounter_parameter();
-                    write_lines_to_struct("Thriller_have_met_database.txt", match_lines[r], n, &test);
+                    write_lines_to_struct("Thriller_have_met_database.txt", match_lines[r], n, allstructs->output);
+                    print_Thriller_Villain2(allstructs->output, allstructs->thriller_villain2, answers_file);
                 }
                 else if (strcmp(meeting_answer, "Canteen") == 0) {
                     was_one_crew_member(answers_file, genre);
@@ -75,7 +78,8 @@ int main() {
                     compare_structs("Thriller_have_met_database.txt", n, answers_file, match_lines, &match_count);
                     r = (rand() % match_count);
                     analyzing_encounter_parameter();
-                    write_lines_to_struct("Thriller_have_met_database.txt", match_lines[r], n, &test);
+                    write_lines_to_struct("Thriller_have_met_database.txt", match_lines[r], n, allstructs->output);
+                    print_Thriller_Villain1(allstructs->output, allstructs->thriller_villain1, answers_file);
                 }
             }
             else if (strcmp(status_answer, "No") == 0) {
@@ -84,7 +88,8 @@ int main() {
                 compare_structs("Thriller_havent_met_database.txt", n, answers_file, match_lines, &match_count);
                 r = (rand() % match_count);
                 analyzing_encounter_parameter();
-                write_lines_to_struct("Thriller_havent_met_database.txt", match_lines[r], n, &test);
+                write_lines_to_struct("Thriller_havent_met_database.txt", match_lines[r], n, allstructs->output);
+                print_Thriller_Villain3(allstructs->output, allstructs->thriller_villain3, answers_file);
             }
         }
         else if (strcmp(genre, "Science fiction") == 0) {
@@ -99,7 +104,8 @@ int main() {
                 compare_structs("Science_fiction_captivity_battlefield_database.txt", n, answers_file, match_lines, &match_count);
                 r = (rand() % match_count);
                 analyzing_encounter_parameter();
-                write_lines_to_struct("Science_fiction_captivity_battlefield_database.txt", match_lines[r], n, &test);
+                write_lines_to_struct("Science_fiction_captivity_battlefield_database.txt", match_lines[r], n, allstructs->output);
+                print_Scifi_Villain1(allstructs->output, allstructs->scifi_villain1, answers_file);
             }
             else if (strcmp(meeting_place, "Canteen") == 0) {
                 was_one_crew_member(answers_file,genre);
@@ -107,7 +113,8 @@ int main() {
                 compare_structs("Science_fiction_canteen_databaset.txt", n, answers_file, match_lines, &match_count);
                 r = (rand() % match_count);
                 analyzing_encounter_parameter();
-                write_lines_to_struct("Science_fiction_canteen_databaset.txt", match_lines[r], n, &test);
+                write_lines_to_struct("Science_fiction_canteen_databaset.txt", match_lines[r], n, allstructs->output);
+                print_Scifi_Villain2(allstructs->output, allstructs->scifi_villain2, answers_file);
             }
         }
         else if (strcmp(genre, "Fantasy") == 0) {
@@ -122,7 +129,8 @@ int main() {
                 compare_structs("Fantasy_captivity_battlefield_database.txt", n, answers_file, match_lines, &match_count);
                 r = (rand() % match_count);
                 analyzing_encounter_parameter();
-                write_lines_to_struct("Fantasy_captivity_battlefield_database.txt", match_lines[r], n, &test);
+                write_lines_to_struct("Fantasy_captivity_battlefield_database.txt", match_lines[r], n, allstructs->output);
+                print_Fantasy1_villain(allstructs->output, allstructs->fantasy_villain1, answers_file);
             }
             else if (strcmp(meeting_place, "Canteen") == 0) {
                 was_one_crew_member(answers_file, genre);
@@ -130,9 +138,11 @@ int main() {
                 compare_structs("Fantasy_Canteen_database.txt", n, answers_file, match_lines, &match_count);
                 r = (rand() % match_count);
                 analyzing_encounter_parameter();
-                write_lines_to_struct("Fantasy_Canteen_database.txt", match_lines[r], n, &test);
+                write_lines_to_struct("Fantasy_Canteen_database.txt", match_lines[r], n, allstructs->output);
+                print_Fantasy2_villain(allstructs->output, allstructs->fantasy_villain2, answers_file);
             }
         }   
     }
+    free_all_structs(allstructs);
     return 0;
 }

@@ -63,7 +63,7 @@ typedef struct {
 }Drama_villain;
 
 typedef struct {
-	char name[50];
+	char Story_name[50];
 	char is_realistic[50]; // yes 
 	char genre[50]; // Comedy
 	char how_long_known[50]; //1) justMet 2) lessThanAYear 3) moreThanAyear
@@ -74,7 +74,7 @@ typedef struct {
 }Comedy_villain;
 
 typedef struct {
-	char name[50];
+	char Story_name[50];
 	char is_realistic[50]; // no
 	char genre[50]; //fantasy
 	char meeting_place[50]; //1) enemy_captivity 2) Battlefield
@@ -97,9 +97,9 @@ typedef struct {
 }Fantasy_villain2;
 
 typedef struct {
-	char name[50];
+	char Story_name[50];
 	char is_realistic[50];  // no
-	char genre[50]; //1) Drama 2) Comedy
+	char genre[50]; 
 	char meeting_place[50]; //1) enemy_captivity 2) Battlefield
 	char same_side[50]; //1) yes 2) no
 	char how_long_sience_than[50]; //1) justMet 2) lessThanAweek 3) moreThanAWeek 4) moreThanAYear
@@ -109,9 +109,9 @@ typedef struct {
 }Scifi_villain1;
 
 typedef struct {
-	char name[50];
+	char Story_name[50];
 	char is_realistic[50]; // no
-	char genre[50]; //1) Drama 2) Comedy
+	char genre[50]; 
 	char meeting_place[50]; //3) canteen
 	char crew_member[50]; //1) yes 2) no
 	char villain_target[300];
@@ -120,9 +120,9 @@ typedef struct {
 }Scifi_villain2;
 
 typedef struct {
-	char name[50];
+	char Story_name[50];
 	char is_realistic[50];  // no
-	char genre[50]; //1) Drama 2) Comedy
+	char genre[50]; 
 	char did_they_meet[50]; //1) yes
 	char where[50]; //1) canteen
 	char crew_member[50]; //1) yes 2) no
@@ -132,9 +132,9 @@ typedef struct {
 }Thriller_villain1;
 
 typedef struct {
-	char name[50];
+	char Story_name[50];
 	char is_realistic[50];  // no
-	char genre[50]; //1) Drama 2) Comedy
+	char genre[50]; 
 	char did_they_meet[50]; //1) yes
 	char where[50]; //2) investigationOffice
 	char hero_duty[50]; //1) investigator 2) murderer 3) victim 4) uninvolved
@@ -144,15 +144,28 @@ typedef struct {
 }Thriller_villain2;
 
 typedef struct {
-	char name[50];
+	char Story_name[50];
 	char is_realistic[50];  // no
-	char genre[50]; //1) Drama 2) Comedy
+	char genre[50]; 
 	char did_they_meet[50]; //2) no
 	char hero_duty[50]; //1) investigator 2) murderer 3) victim 4) uninvolved
 	char villain_target[300];
 	char plot_line[1000];
 	villainTrait traits[3]; // villain will always have 3 traits
 }Thriller_villain3;
+
+typedef struct {
+	Drama_villain* drama_villain;
+	Comedy_villain* comedy_villain;
+	Fantasy_villain1* fantasy_villain1;
+	Fantasy_villain2* fantasy_villain2;
+	Scifi_villain1* scifi_villain1;
+	Scifi_villain2* scifi_villain2;
+	Thriller_villain1* thriller_villain1;
+	Thriller_villain2* thriller_villain2;
+	Thriller_villain3* thriller_villain3;
+	Output_Vilain_Struct* output;
+} AllStructs;
 
 typedef enum {
 	DRAMA,
