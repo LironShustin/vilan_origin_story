@@ -74,6 +74,9 @@ void print_fantasy2_villain(const Output_Vilain_Struct* villain, const Fantasy_v
     // plot line
     printf("My suggested plot line:\n%s\n", fantasy2_villain->plot_line);
 }
+
+
+
 //char* get_random_name() {
 //    static char name[MAX_NAME_LENGTH];
 //    FILE* file = fopen("names.txt", "r");
