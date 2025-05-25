@@ -378,7 +378,8 @@ void are_you_happy_with_your_result() {
         print_colored("[1] Yes\n [2] No", CYAN);
         scanf_s(" %c", &answer, 1);
         if (answer == 'y' || answer == 'Y' || answer == '1') {
-            print_colored("Great! I'm happy to hear, goodbye!", GREEN);
+            print_colored("Great! I'm happy to hear!\n", GREEN);
+            printf("Do you want to generate another villain?\n");
         }
         else if (answer == 'n' || answer == 'N' || answer == '2') {
             print_colored("I'm sorry to hear that", ORANGE);
@@ -390,4 +391,8 @@ void are_you_happy_with_your_result() {
             print_colored("Invalid Input!, try again", RED);
         }
     }
+}
+
+void generate_another() {
+
 }
