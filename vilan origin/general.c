@@ -4,6 +4,7 @@
 #include "Structs&Enums.h"
 #include "design.h"
 
+<<<<<<< HEAD
 void printOutputVillain(const Output_Vilain_Struct* villain) {
     printf("Story Title: %s\n", villain->story_title);
     printf("Realistic: %s\n", villain->realistic);
@@ -46,6 +47,31 @@ void printDramaVillain(const Output_Vilain_Struct* villain, const Drama_villain*
     printf("Your villain is %s\n", drama_villain->villain_target);
     // plot line
     printf("My suggested plot line:\n%s\n", villain->line4);
+=======
+#define MAX_NAMES 50
+#define MAX_NAME_LENGTH 100
+
+char* get_random_name() {
+    static char name[MAX_NAME_LENGTH];
+    FILE* file = fopen("names.txt", "r");
+    if (file == NULL) {
+        perror("Error opening file");
+        return NULL;
+    }
+
+    int random_index = rand() % MAX_NAMES;
+
+    for (int i = 0; i <= random_index; i++) {
+        if (fgets(name, MAX_NAME_LENGTH, file) == NULL) {
+            fprintf(stderr, "Error reading line %d\n", i);
+            fclose(file);
+            return NULL;
+        }
+    }
+
+    fclose(file);
+    return name;
+>>>>>>> liron5
 }
 
 void generate_random_traits(villainTrait traits[3]) {
