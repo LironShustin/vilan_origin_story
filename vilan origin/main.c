@@ -12,7 +12,7 @@
 
 int main() {
     srand((unsigned int)time(NULL)); // Seed the RNG
-    //Drama_villain drama_villain = { 0 };
+    Drama_villain drama_villain = { 0 };
     //Comedy_villain comedy_villain = { 0 };
     Output_Vilain_Struct test = { 0 };
     char answers_file[260];
@@ -37,8 +37,10 @@ int main() {
             n = 2; //since theres 2 questions after genre
             compare_structs("drama_database.txt", n, answers_file, match_lines, &match_count);
             r = (rand() % match_count);
+            clear_console();
             analyzing_encounter_parameter();
             write_lines_to_struct("drama_database.txt", match_lines[r], n, &test);
+            printDramaVillain(&test, &drama_villain, &answers_file); // answers_file is a string that containes the story name
         }
         else if (strcmp(genre, "Comedy") == 0) {
             n = 2; //since theres 2 questions after genre

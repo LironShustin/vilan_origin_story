@@ -6,7 +6,8 @@
 void generate_random_traits(villainTrait traits[3]);
 void clear_console();
 void analyzing_encounter_parameter(void);
-
+void printOutputVillain(const Output_Vilain_Struct* villain);
+void printDramaVillain(const Output_Vilain_Struct* villain, const Drama_villain* drama_villain, const char* story_name);
 
 #endif
 #pragma once

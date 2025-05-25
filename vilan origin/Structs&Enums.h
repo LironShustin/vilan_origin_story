@@ -51,17 +51,17 @@ typedef enum {
 	TRAIT_COUNT // for bounds checking
 } villainTrait;
 
-//typedef struct {
-//	char name[50];
-//	char is_realistic[50]; // yes
-//	char genre[50]; //Drama 
-//	char how_long_known[50]; //1) justMet 2) lessThanAYear 3) moreThanAyear
-//	char where_met[50]; //1) Family 2) studiedTogether 3) Work
-//	char villain_target[300];
-//	char plot_line[1000];
-//	villainTrait traits[3]; // villain will always have 3 traits
-//}Drama_villain;
-//
+typedef struct {
+	char Story_name[50];
+	char is_realistic[50]; // yes
+	char genre[50]; //Drama 
+	char how_long_known[50]; //1) justMet 2) lessThanAYear 3) moreThanAyear
+	char where_met[50]; //1) Family 2) studiedTogether 3) Work
+	char villain_target[300];
+	char plot_line[1000];
+	villainTrait traits[3]; // villain will always have 3 traits
+}Drama_villain;
+
 //typedef struct {
 //	char name[50];
 //	char is_realistic[50]; // yes 
