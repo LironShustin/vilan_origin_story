@@ -123,11 +123,11 @@ void first_meeting_place(char* story_file_name, char* genre) {
     char meeting_place[100] = { 0 };
     char choice = 0;
     while (choice != '1' && choice != '2' && choice != '3') {
-        print_colored("\nWhere did the hero and villain first meet?\n", YELLOW);
+        print_colored("\nWhere did the hero and villain meet first?\n", YELLOW);
         if (strcmp(genre, "Drama") == 0) {
             print_colored("[1] Family\n", PINK);
             print_colored("[2] School\n", PINK);
-            print_colored("[3] Workplace\n", PINK);
+            print_colored("[3] workplace\n", PINK);
         }
         else if (strcmp(genre, "Comedy") == 0) {
             print_colored("[1] Family\n", CYAN);
@@ -150,7 +150,7 @@ void first_meeting_place(char* story_file_name, char* genre) {
         strcpy_s(meeting_place, sizeof(meeting_place), "school");
         break;
     case '3':
-        strcpy_s(meeting_place, sizeof(meeting_place), "work place");
+        strcpy_s(meeting_place, sizeof(meeting_place), "workplace");
         break;
     }
     append_to_next_empty_line(story_file_name, meeting_place);
@@ -295,7 +295,7 @@ void thriller_meeting_status(char* story_file_name) {
 void thriller_meeting_place(char* story_file_name) {
     char choice = 0;
     while (choice != '1' && choice != '2') {
-        print_colored("\nWhere did the hero and villain first meet each other?\n", YELLOW);
+        print_colored("\nWhere did the hero and villain first met each other?\n", YELLOW);
         print_colored("[1] Canteen\n", ORANGE);
         print_colored("[2] Investigation Office\n", ORANGE);
         scanf_s(" %c", &choice, 1);

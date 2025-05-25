@@ -5,7 +5,7 @@
 
 #define MAX_LINE_LENGTH 1000
 
-void compare_structs(const char* file1, int n, const char* file2, int match_lines[10], int* match_count) {
+void compare_structs(const char* file1, int n, const char* file2, int match_lines[100], int* match_count) {
     FILE* fp1 = NULL;
     FILE* fp2 = NULL;
     char line[MAX_LINE_LENGTH];

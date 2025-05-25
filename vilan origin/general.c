@@ -144,6 +144,7 @@ void print_Fantasy2_villain(const Output_Vilain_Struct* villain, const Fantasy_v
     printf("My suggested plot line:\n%s\n", fantasy2_villain->plot_line);
 }
 
+<<<<<<< HEAD
 void print_Scifi_Villain1(const Output_Vilain_Struct* villain, Scifi_villain1* scifi_villain, const char* story_name) {
     strcpy_s(scifi_villain->Story_name, sizeof(scifi_villain->Story_name), story_name);
     strcpy_s(scifi_villain->is_realistic, sizeof(scifi_villain->is_realistic), "Fictional");
@@ -293,6 +294,9 @@ void print_Thriller_Villain3(const Output_Vilain_Struct* villain, Thriller_villa
     // Plot line
     printf("My suggested plot line:\n%s\n", thriller_villain->plot_line);
 }
+=======
+
+>>>>>>> liron6
 
 //char* get_random_name() {
 //    static char name[MAX_NAME_LENGTH];

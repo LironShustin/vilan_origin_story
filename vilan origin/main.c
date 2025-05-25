@@ -18,7 +18,7 @@ int main() {
     }
     char answers_file[260];
     BOOL realistic = True;
-    int match_lines[60] = { 0 };
+    int match_lines[100] = { 0 };
     int match_count = 1;
     int n;
     int r;
