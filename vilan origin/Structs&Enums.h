@@ -59,7 +59,6 @@ typedef struct {
 	char where_met[50]; //1) Family 2) studiedTogether 3) Work
 	char villain_target[300];
 	char plot_line[1000];
-	//villainTrait traits[3]; // villain will always have 3 traits
 }Drama_villain;
 
 typedef struct {
@@ -70,7 +69,6 @@ typedef struct {
 	char where_met[50]; //1) Family 2) studiedTogether 3) Work
 	char villain_target[300];
 	char plot_line[1000];
-	//villainTrait traits[3]; // villain will always have 3 traits
 }Comedy_villain;
 
 typedef struct {
@@ -82,7 +80,6 @@ typedef struct {
 	char how_long_sience_than[50]; //1) justMet 2) lessThanAweek 3) moreThanAWeek 4) moreThanAYear
 	char villain_target[300];
 	char plot_line[1000];
-	//villainTrait traits[3]; // villain will always have 3 traits
 }Fantasy_villain1;
 
 typedef struct {
@@ -93,7 +90,6 @@ typedef struct {
 	char crew_member[50]; //1) yes 2) no
 	char villain_target[300];
 	char plot_line[1000];
-	//villainTrait traits[3]; // villain will always have 3 traits
 }Fantasy_villain2;
 
 typedef struct {
@@ -105,7 +101,6 @@ typedef struct {
 	char how_long_sience_than[50]; //1) justMet 2) lessThanAweek 3) moreThanAWeek 4) moreThanAYear
 	char villain_target[300];
 	char plot_line[1000];
-	villainTrait traits[3]; // villain will always have 3 traits
 }Scifi_villain1;
 
 typedef struct {
@@ -116,7 +111,6 @@ typedef struct {
 	char crew_member[50]; //1) yes 2) no
 	char villain_target[300];
 	char plot_line[1000];
-	villainTrait traits[3]; // villain will always have 3 traits
 }Scifi_villain2;
 
 typedef struct {
@@ -128,7 +122,6 @@ typedef struct {
 	char crew_member[50]; //1) yes 2) no
 	char villain_target[300];
 	char plot_line[1000];
-	villainTrait traits[3]; // villain will always have 3 traits
 }Thriller_villain1;
 
 typedef struct {
@@ -140,7 +133,6 @@ typedef struct {
 	char hero_duty[50]; //1) investigator 2) murderer 3) victim 4) uninvolved
 	char villain_target[300];
 	char plot_line[1000];
-	villainTrait traits[3]; // villain will always have 3 traits
 }Thriller_villain2;
 
 typedef struct {
@@ -151,7 +143,6 @@ typedef struct {
 	char hero_duty[50]; //1) investigator 2) murderer 3) victim 4) uninvolved
 	char villain_target[300];
 	char plot_line[1000];
-	villainTrait traits[3]; // villain will always have 3 traits
 }Thriller_villain3;
 
 typedef struct {
