@@ -127,7 +127,7 @@ void first_meeting_place(char* story_file_name, char* genre) {
         if (strcmp(genre, "Drama") == 0) {
             print_colored("[1] Family\n", PINK);
             print_colored("[2] School\n", PINK);
-            print_colored("[3] Work place\n", PINK);
+            print_colored("[3] Workplace\n", PINK);
         }
         else if (strcmp(genre, "Comedy") == 0) {
             print_colored("[1] Family\n", CYAN);
