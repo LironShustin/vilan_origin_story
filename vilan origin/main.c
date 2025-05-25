@@ -9,8 +9,10 @@
 #include "fileReading.h"
 #include "fileComparison.h"
 #include "general.h"
+#include "design.h"
 
 int main() {
+    print_welcome_message();
     srand((unsigned int)time(NULL)); // Seed the RNG
     AllStructs* allstructs = allocate_all_structs();
     if (!allstructs) {
@@ -130,7 +132,7 @@ int main() {
                 r = (rand() % match_count);
                 analyzing_encounter_parameter();
                 write_lines_to_struct("Fantasy_captivity_battlefield_database.txt", match_lines[r], n, allstructs->output);
-                print_Fantasy1_villain(allstructs->output, allstructs->fantasy_villain1, answers_file);
+                print_Fantasy1_Villain(allstructs->output, allstructs->fantasy_villain1, answers_file);
             }
             else if (strcmp(meeting_place, "Canteen") == 0) {
                 was_one_crew_member(answers_file, genre);

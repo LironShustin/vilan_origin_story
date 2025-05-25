@@ -12,6 +12,8 @@ const char* PINK;
 const char* RESET;
 
 void print_colored(const char* text, const char* color_code);
+void print_logo();
+void print_welcome_message();
 
 #endif // !design_H
 #pragma once
