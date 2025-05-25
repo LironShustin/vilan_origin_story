@@ -127,7 +127,7 @@ void first_meeting_place(char* story_file_name, char* genre) {
         if (strcmp(genre, "Drama") == 0) {
             print_colored("[1] Family\n", PINK);
             print_colored("[2] School\n", PINK);
-            print_colored("[3] Workplace\n", PINK);
+            print_colored("[3] workplace\n", PINK);
         }
         else if (strcmp(genre, "Comedy") == 0) {
             print_colored("[1] Family\n", CYAN);
@@ -150,7 +150,7 @@ void first_meeting_place(char* story_file_name, char* genre) {
         strcpy_s(meeting_place, sizeof(meeting_place), "school");
         break;
     case '3':
-        strcpy_s(meeting_place, sizeof(meeting_place), "work place");
+        strcpy_s(meeting_place, sizeof(meeting_place), "workplace");
         break;
     }
     append_to_next_empty_line(story_file_name, meeting_place);
