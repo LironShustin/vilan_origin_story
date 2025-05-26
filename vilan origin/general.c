@@ -171,7 +171,7 @@ void print_Scifi_Villain1(const Output_Vilain_Struct* villain, Scifi_villain1* s
         printf("They were on opposite sides when they met\n");
     }
     // Q3
-    if (strcmp(scifi_villain->how_long_since_then, "Just met") == 0) {
+    if (strcmp(scifi_villain->how_long_sience_than, "Just met") == 0) {
 		printf("The hero and villain just met\n");
     }
     else{
