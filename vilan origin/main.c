@@ -12,6 +12,9 @@
 #include "design.h"
 
 int main() {
+    print_logo();
+    Sleep(2300);
+    clear_console();
     print_welcome_message();
     srand((unsigned int)time(NULL)); // Seed the RNG
     AllStructs* allstructs = allocate_all_structs();
