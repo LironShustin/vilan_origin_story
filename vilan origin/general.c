@@ -313,17 +313,6 @@ void print_Thriller_Villain3(const Output_Vilain_Struct* villain, Thriller_villa
 //    return name;
 //}
 
-void generate_random_traits(villainTrait traits[3]) {
-    int used[TRAIT_COUNT] = { 0 };
-    int count = 0;
-    while (count < 3) {
-        int r = rand() % TRAIT_COUNT;
-        if (!used[r]) {
-            traits[count++] = (villainTrait)r;
-            used[r] = 1;
-        }
-    }
-}
 
 void clear_console() {
 #ifdef _WIN32
