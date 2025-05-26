@@ -4,10 +4,6 @@
 #include "Structs&Enums.h"
 #include "design.h"
 
-#define MAX_NAMES 50
-#define MAX_NAME_LENGTH 100
-
-
 void print_Output_Villain(const Output_Vilain_Struct* villain) {
     printf("Story Title: %s\n", villain->story_title);
     printf("Realistic: %s\n", villain->realistic);
