@@ -171,7 +171,12 @@ void print_Scifi_Villain1(const Output_Vilain_Struct* villain, Scifi_villain1* s
         printf("They were on opposite sides when they met\n");
     }
     // Q3
-    printf("It has been %s since they first met\n", scifi_villain->how_long_sience_than);
+    if (strcmp(scifi_villain->how_long_since_then, "Just met") == 0) {
+		printf("The hero and villain just met\n");
+    }
+    else{
+        printf("It has been %s since they first met\n", scifi_villain->how_long_sience_than);
+    }
     // Role
     printf("Your villain is %s\n", scifi_villain->villain_target);
     // Plot line
@@ -313,17 +318,6 @@ void print_Thriller_Villain3(const Output_Vilain_Struct* villain, Thriller_villa
 //    return name;
 //}
 
-void generate_random_traits(villainTrait traits[3]) {
-    int used[TRAIT_COUNT] = { 0 };
-    int count = 0;
-    while (count < 3) {
-        int r = rand() % TRAIT_COUNT;
-        if (!used[r]) {
-            traits[count++] = (villainTrait)r;
-            used[r] = 1;
-        }
-    }
-}
 
 void clear_console() {
 #ifdef _WIN32

@@ -1,6 +1,7 @@
 #include "fileSaving.h"
 #include "design.h"
 
+
 void create_answers_file(char* file_name) {
     char storyName[256];
     char fileName[260];

@@ -9,8 +9,10 @@
 #include "fileReading.h"
 #include "fileComparison.h"
 #include "general.h"
+#include "design.h"
 
 int main() {
+    print_welcome_message();
     srand((unsigned int)time(NULL)); // Seed the RNG
     AllStructs* allstructs = allocate_all_structs();
     if (!allstructs) {
