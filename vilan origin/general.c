@@ -87,7 +87,7 @@ void print_Comedy_Villain(const Output_Vilain_Struct* villain, Comedy_villain* c
     printf("My suggested plot line:\n%s\n", comedy_villain->plot_line);
 }
 
-void print_Fantasy_Villain1(const Output_Vilain_Struct* villain, Fantasy_villain1* fantasy_villain, const char* story_name) {
+void print_Fantasy1_Villain(const Output_Vilain_Struct* villain, Fantasy_villain1* fantasy_villain, const char* story_name) {
     strcpy_s(fantasy_villain->Story_name, sizeof(fantasy_villain->Story_name), story_name);
     strcpy_s(fantasy_villain->is_realistic, sizeof(fantasy_villain->is_realistic), "Fictional");
     strcpy_s(fantasy_villain->genre, sizeof(fantasy_villain->genre), "Fantasy");

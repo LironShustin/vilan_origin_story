@@ -17,6 +17,8 @@ void how_long_since_meeting(char* story_file_name, char* genre);
 void thriller_meeting_place(char* story_file_name);
 void thriller_hero_duty(char* story_file_name);
 void was_one_crew_member(char* story_file_name, char* genre);
+void are_you_happy_with_your_result(int r, int match_count, char database[100], int* match_lines, int n, Output_Vilain_Struct* output, int* run, int* print);
+void generate_another(int r, int match_count, char database[100], int* match_lines, int n, Output_Vilain_Struct* output, int* run, int* print);
 
 #endif
 #pragma once
