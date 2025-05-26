@@ -124,17 +124,5 @@ typedef struct {
 	Output_Vilain_Struct* output;
 } AllStructs;
 
-typedef enum {
-	DRAMA,
-	COMEDY,
-	FANTASY1,
-	FANTASY2,
-	SCIFI1,
-	SCIFI2,
-	THRILLER1,
-	THRILLER2,
-	THRILLER3
-} VillainType;
-
 #endif 
 #pragma once
