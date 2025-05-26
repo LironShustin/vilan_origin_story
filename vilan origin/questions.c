@@ -415,10 +415,6 @@ void generate_another(int r, int match_count, const char* database, int* match_l
                 int ch;
                 while ((ch = getchar()) != '\n' && ch != EOF) {}
                 if (answer == 'y' || answer == 'Y' || answer == '1') {
-                    while (newR == oldR) {
-                        newR = (rand() % match_count);
-                    }
-                    write_lines_to_struct(database, match_lines[newR], n, output);
                     *print = 1;
                 }
                 else if (answer == 'n' || answer == 'N' || answer == '2') {

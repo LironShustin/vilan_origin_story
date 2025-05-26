@@ -44,8 +44,8 @@ int main() {
             if (strcmp(genre, "Drama") == 0) {
                 n = 2; //since theres 2 questions after genre
                 compare_structs("drama_database.txt", n, answers_file, match_lines, &match_count);
-                r = (rand() % match_count);
                 while (print == 1) {
+                    r = (rand() % match_count);
                     clear_console();
                     analyzing_encounter_parameter();
                     write_lines_to_struct("drama_database.txt", match_lines[r], n, allstructs->output);
@@ -57,8 +57,8 @@ int main() {
             else if (strcmp(genre, "Comedy") == 0) {
                 n = 2; //since theres 2 questions after genre
                 compare_structs("comedy_database.txt", n, answers_file, match_lines, &match_count);
-                r = (rand() % match_count);
                 while (print == 1) {
+                    r = (rand() % match_count);
                     analyzing_encounter_parameter();
                     write_lines_to_struct("comedy_database.txt", match_lines[r], n, allstructs->output);
                     print_Comedy_Villain(allstructs->output, allstructs->comedy_villain, answers_file);
@@ -85,8 +85,8 @@ int main() {
                         clear_console();
                         n = 3; //since theres 3 questions after genre
                         compare_structs("Thriller_have_met_database.txt", n, answers_file, match_lines, &match_count);
-                        r = (rand() % match_count);
                         while (print == 1) {
+                            r = (rand() % match_count);
                             analyzing_encounter_parameter();
                             write_lines_to_struct("Thriller_have_met_database.txt", match_lines[r], n, allstructs->output);
                             print_Thriller_Villain2(allstructs->output, allstructs->thriller_villain2, answers_file);
@@ -99,8 +99,8 @@ int main() {
                         clear_console();
                         n = 3; //since theres 3 questions after genre
                         compare_structs("Thriller_have_met_database.txt", n, answers_file, match_lines, &match_count);
-                        r = (rand() % match_count);
                         while (print == 1) {
+                            r = (rand() % match_count);
                             analyzing_encounter_parameter();
                             write_lines_to_struct("Thriller_have_met_database.txt", match_lines[r], n, allstructs->output);
                             print_Thriller_Villain1(allstructs->output, allstructs->thriller_villain1, answers_file);
@@ -114,8 +114,8 @@ int main() {
                     clear_console();
                     n = 2; //since theres 2 questions after genre
                     compare_structs("Thriller_havent_met_database.txt", n, answers_file, match_lines, &match_count);
-                    r = (rand() % match_count);
                     while (print == 1) {
+                        r = (rand() % match_count);
                         analyzing_encounter_parameter();
                         write_lines_to_struct("Thriller_havent_met_database.txt", match_lines[r], n, allstructs->output);
                         print_Thriller_Villain3(allstructs->output, allstructs->thriller_villain3, answers_file);
@@ -137,8 +137,8 @@ int main() {
                     clear_console();
                     n = 3; //since theres 3 questions after genre
                     compare_structs("Science_fiction_captivity_battlefield_database.txt", n, answers_file, match_lines, &match_count);
-                    r = (rand() % match_count);
                     while (print == 1) {
+                        r = (rand() % match_count);
                         analyzing_encounter_parameter();
                         write_lines_to_struct("Science_fiction_captivity_battlefield_database.txt", match_lines[r], n, allstructs->output);
                         print_Scifi_Villain1(allstructs->output, allstructs->scifi_villain1, answers_file);
@@ -151,8 +151,8 @@ int main() {
                     clear_console();
                     n = 2; //since theres 2 questions after genre
                     compare_structs("Science_fiction_canteen_databaset.txt", n, answers_file, match_lines, &match_count);
-                    r = (rand() % match_count);
                     while (print == 1) {
+                        r = (rand() % match_count);
                         analyzing_encounter_parameter();
                         write_lines_to_struct("Science_fiction_canteen_databaset.txt", match_lines[r], n, allstructs->output);
                         print_Scifi_Villain2(allstructs->output, allstructs->scifi_villain2, answers_file);
@@ -174,8 +174,8 @@ int main() {
                     clear_console();
                     n = 3; //since theres 3 questions after genre
                     compare_structs("Fantasy_captivity_battlefield_database.txt", n, answers_file, match_lines, &match_count);
-                    r = (rand() % match_count);
                     while (print == 1) {
+                        r = (rand() % match_count);
                         analyzing_encounter_parameter();
                         write_lines_to_struct("Fantasy_captivity_battlefield_database.txt", match_lines[r], n, allstructs->output);
                         print_Fantasy1_Villain(allstructs->output, allstructs->fantasy_villain1, answers_file);
@@ -188,8 +188,8 @@ int main() {
                     clear_console();
                     n = 2; //since theres 2 questions after genre
                     compare_structs("Fantasy_Canteen_database.txt", n, answers_file, match_lines, &match_count);
-                    r = (rand() % match_count);
                     while (print == 1) {
+                        r = (rand() % match_count);
                         analyzing_encounter_parameter();
                         write_lines_to_struct("Fantasy_Canteen_database.txt", match_lines[r], n, allstructs->output);
                         print_Fantasy2_villain(allstructs->output, allstructs->fantasy_villain2, answers_file);

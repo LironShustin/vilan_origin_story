@@ -105,7 +105,7 @@ void print_logo() {
 }
 
 void print_welcome_message() {
-	print_colored("=======================================================================================================================\n", YELLOW);
+	print_colored("==================================================================================================================\n", YELLOW);
 	print_colored("                                    Hello story teller!\n", BLUE);
 	print_colored("                               Welcome to Villain Origin Story!\n", BLUE);
 	print_colored("                          My name is V.O.S (Villain Origin Story bot)!\n", BLUE);
@@ -114,6 +114,6 @@ void print_welcome_message() {
 	print_colored("              For every question, please type the number of your answer and press Enter.\n", BLUE);
 	print_colored("                     Based on your answers, I'll generate a villain for you.\n", BLUE);
 	print_colored("                                    Let's get started!\n", BLUE);
-    print_colored("=======================================================================================================================\n", YELLOW);
-	Sleep(5000);
+    print_colored("==================================================================================================================\n", YELLOW);
+	Sleep(3000);
 }
