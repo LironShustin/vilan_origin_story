@@ -12,7 +12,7 @@ void is_realistic(BOOL* realistic, char* story_file_name) {
     char answer[10]; // buffer for input
     answer[0] = '0';
     while (answer[0] == '0') {
-        print_colored("Is your story realistic or fictional?\n", YELLOW);
+        print_colored("\nIs your story realistic or fictional?\n", YELLOW);
         print_colored("[1] Realistic\n", BLUE);
         print_colored("[2] Fictional\n", GREEN);
         scanf_s(" %9s", answer, (unsigned)_countof(answer));
@@ -375,9 +375,11 @@ void was_one_crew_member(char* story_file_name, char* genre) {
 void are_you_happy_with_your_result(int r, int match_count, const char* database, int* match_lines, int n, Output_Vilain_Struct* output, int* run, int* print) {
     char answer = '0';
     while (answer == '0') {
-        print_colored("Are you happy with the vilain/antagonist generated?\n", YELLOW);
-        print_colored(" [1] Yes\n [2] No\n", CYAN);
+        print_colored("\nAre you happy with the villain/antagonist generated?\n", YELLOW);
+        print_colored("[1] Yes\n[2] No\n", CYAN);
         scanf_s(" %c", &answer, 1);
+        int ch;
+        while ((ch = getchar()) != '\n' && ch != EOF) {}
         if (answer == 'y' || answer == 'Y' || answer == '1') {
             print_colored("Great! I'm happy to hear!\n", YELLOW);
             generate_another(r, match_count, database, match_lines, n, output, run, print);
@@ -398,22 +400,28 @@ void generate_another(int r, int match_count, const char* database, int* match_l
     int newR = r;
     char answer = '0';
     while (answer == '0') {
-        print_colored("Do you want to generate another villain? (y/n)\n", YELLOW);
+        print_colored("\nDo you want to generate another villain?\n", YELLOW);
+        print_colored("[1] Yes\n[2] No\n", PURPLE);
         scanf_s(" %c", &answer, 1);
-        if (answer == 'y' || answer == 'Y') {
+        int ch;
+        while ((ch = getchar()) != '\n' && ch != EOF) {}
+        if (answer == 'y' || answer == 'Y' || answer == '1') {
             answer = '0';
             while (answer == '0') {
-                print_colored("Fantastic!, do you want to keep the same parameters? (y/n)\n", YELLOW);
+                print_colored("\nFantastic!, do you want to keep the same parameters?\n", YELLOW);
+                print_colored("[1] Yes\n[2] No\n", BLUE);
                 scanf_s(" %c", &answer, 1);
-                if (answer == 'y' || answer == 'Y') {
-                    analyzing_encounter_parameter();
+				clear_console();
+                int ch;
+                while ((ch = getchar()) != '\n' && ch != EOF) {}
+                if (answer == 'y' || answer == 'Y' || answer == '1') {
                     while (newR == oldR) {
                         newR = (rand() % match_count);
                     }
                     write_lines_to_struct(database, match_lines[newR], n, output);
                     *print = 1;
                 }
-                else if (answer == 'n' || answer == 'N') {
+                else if (answer == 'n' || answer == 'N' || answer == '2') {
                     // main loop will restart
                     *print = 0;
                     break;
@@ -424,7 +432,7 @@ void generate_another(int r, int match_count, const char* database, int* match_l
                 }
             }
         }
-        else if (answer == 'n' || answer == 'N') {
+        else if (answer == 'n' || answer == 'N' || answer == '2') {
             print_colored("Goodbye, have a nice time writing!\n\n", YELLOW);
             *print = 0;
             *run = 0;

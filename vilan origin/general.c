@@ -324,6 +324,6 @@ void clear_console() {
 }
 
 void analyzing_encounter_parameter(void) {
-    print_colored("Analyzing encounter parameter...\nplease wait...\n", ORANGE);
+    print_colored("Analyzing encounter parameter...\nplease wait...\n\n", ORANGE);
     Sleep(3000);
 }
